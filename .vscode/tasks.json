@@ -1,0 +1,39 @@
+{
+    "version": "0.1.0",
+    "windows": {
+        "command": "npm"
+    },
+    "osx": {
+        "command": "npm"
+    },
+    "linux": {
+        "command": "npm"
+    },
+    "isShellCommand": true,
+    "args": [
+
+    ],
+    "tasks": [
+        {
+            "taskName": "run",
+            "args": ["build:dev"],
+            "isBuildCommand": true,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint",
+                {
+                    "fileLocation": "absolute",
+                    "pattern": {
+                        "regexp": "^(\\S.*)\\[(\\d+), (\\d+)\\]:\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "message": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

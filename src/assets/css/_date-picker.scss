@@ -1,0 +1,23 @@
+
+
+.custom-datepicker input {
+    border: 0px !important;
+    color: black;
+    outline: none;
+    width: 100%;
+}
+
+.custom-datepicker.error {
+    border: 1px solid rgb(204, 55, 50);
+}
+
+.custom-datepicker .left-span {
+    width: 20px;
+}
+
+.custom-datepicker {
+    height: 44px;
+    border: 1px solid rgba(204,204,204, 0.7);
+    color: #414141;
+    border-radius: 6px;
+}

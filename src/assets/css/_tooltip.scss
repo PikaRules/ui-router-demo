@@ -1,0 +1,33 @@
+
+
+.mat-tooltip {
+    background-color: rgba(22, 22, 22, 0.8);
+    color: white;
+    font-weight: normal !important;
+    font-family: Helvetica, sans-serif;
+}
+
+.mat-tooltip.multiple-lines {
+    height: auto;
+    max-width: 250px;
+    word-break: break-word;
+    white-space: normal;
+    background-color: rgba(22, 22, 22, 0.8);
+    color: white;
+    font-weight: normal !important;
+    font-family: Helvetica, sans-serif;
+}
+
+.mat-tooltip.white {
+    background-color: white;
+    color: #414141;
+    font-weight: normal !important;
+    font-family: Helvetica, sans-serif;
+}
+
+.white-tooltip {
+    background-color: white;
+    color: #414141 !important;
+    font-weight: normal !important;
+    font-family: Helvetica, sans-serif;
+}

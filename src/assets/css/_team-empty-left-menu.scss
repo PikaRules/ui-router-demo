@@ -1,0 +1,112 @@
+
+.team-spoch-header {
+    background-color: #0F0C31;
+    height: 50px;
+    color: white;
+    padding: 0 12px;
+    font-size: 14px;
+}
+
+.team-header-name {
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 8px;
+}
+
+.team-empty-left-menu {
+    background-color: #EFEFEF;
+}
+
+.team-empty-left-menu .items {
+    padding-top: 10px;
+    overflow-y: auto;
+}
+
+.team-empty-left-menu .item {
+    height: 40px;
+    font-size: 14px;
+}
+
+.team-empty-left-menu .room-list.ng-leave {
+    transition: 0.15s linear all;
+    opacity:1;
+}
+.team-empty-left-menu .room-list.ng-leave.ng-leave-active {
+    opacity:0;
+}
+
+.team-empty-left-menu .room-list.ng-enter {
+    transition: 0.15s linear all;
+    opacity:0;
+}
+.team-empty-left-menu .room-list.ng-enter.ng-enter-active {
+    opacity:1;
+}
+
+.team-empty-left-menu .room-list.ng-leave.animate.ng-leave-active {
+    height: 200px;
+    overflow: hidden;
+}
+
+.team-empty-left-menu .list-toggle {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.team-empty-left-menu  .menu-icon{
+    width: 20px; height: 18px; margin: 0 10px;
+}
+
+.team-empty-left-menu .rooms-icon-container {
+    width: 32px;
+    margin: 4px 2px 0 6px;
+    position: relative;
+}
+
+.team-empty-left-menu .rooms-icon {
+    background: #5B5691;
+    width: 24px;
+    height: 24px;
+    border: solid 1px white;
+    position: relative;
+    z-index: 2;
+}
+
+.team-empty-left-menu .rooms-icon-circle {
+    background: #5B5691;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    margin: 1px 0px;
+    left: 6px;
+}
+
+.team-empty-left-menu .subitem {
+    padding-left: 40px;
+}
+
+.team-empty-left-menu .subitem>span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.team-empty-left-menu .stock {
+    background-color: #E2E1ED;
+}
+
+.team-empty-left-menu-container {
+    width: 240px; border-right: 1px solid rgba(204,204,204, 0.5);
+}
+.team-empty-left-menu-container.shrink {
+    width: 50px;
+}
+.team-empty-left-menu-container.shrink .label {
+    display: none;
+}

@@ -1,0 +1,231 @@
+
+
+$button-default-bg-color: white;
+$button-primary-bg-color: #171717;
+$button-secondary-bg-color: #CC3732;
+
+$button-default-color: #171717;
+$button-primary-color: white;
+$button-secondary-color: white;
+
+$button-default-border: 1px solid #95989A;
+$button-primary-border: 1px solid #95989A;
+$button-secondary-border: 0px;
+
+$button-font-stack: "Helvetica Neue", Helvetica, sans-serif; //  "HelveticaNeue-Light", "Helvetica Neue Light",
+
+.sp-button {
+    border-radius: 5px;
+    background-color: $button-default-bg-color;
+    color: $button-default-color;
+    border: $button-default-border;
+    font-family: $button-font-stack;
+    // font-weight: 300;
+    font-size: 16px;
+    height: 50px;
+    padding-right: 12px;
+    padding-left: 12px;
+    outline: 0;
+    cursor: pointer;
+
+    &:disabled {
+        opacity: 0.3;
+    }
+
+    &.primary {
+        background-color: $button-primary-bg-color;
+        color: $button-primary-color;
+        font-weight: normal;
+        font-size: 18px;
+        border: $button-primary-border;
+    }
+
+    &.secondary {
+        background-color: $button-secondary-bg-color;
+        color: $button-secondary-color;
+        font-weight: normal;
+        font-size: 18px;
+        border: $button-secondary-border;
+    }
+
+    &.delete {
+        background-color: white;
+        color: #C02A2F;
+        font-weight: normal;
+        font-size: 18px;
+        border: 1px solid #C02A2F;
+    }
+
+    &.transparent {
+        background-color: transparent;
+        border: 0px;
+
+    }
+
+    &.transparent.white {
+        color: white;
+    }
+
+    &.round {
+        background-color: transparent;
+        border: 1px solid;
+        border-radius: 50px;
+    }
+
+    &.round.white {
+        color: white;
+    }
+}
+
+
+.switch-button {
+    $color: #0F0C31;
+    $radius: 20px;
+
+    button {
+        background-color: transparent;
+        font-size: 14px;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    button.left, button.right {
+        height: 33px;
+        border: 1px solid $color;
+        color: $color;
+        padding-left: 24px;
+        padding-right: 24px;
+        text-align: center;
+
+        &:hover {
+            background-color: inherit;
+            cursor: pointer;
+        }
+    }
+
+    .left {
+        border-bottom-left-radius: $radius;
+        border-top-left-radius: $radius;
+        -webkit-border-bottom-left-radius: $radius;
+        -webkit-border-top-left-radius: $radius;
+        -moz-border-bottom-left-radius: $radius;
+        -moz-border-top-left-radius: $radius;
+    }
+
+    .right {
+        border-bottom-right-radius: $radius;
+        border-top-right-radius: $radius;
+        -webkit-border-bottom-right-radius: $radius;
+        -webkit-border-top-right-radius: $radius;
+        -moz-border-bottom-right-radius: $radius;
+        -moz-border-top-right-radius: $radius;
+    }
+
+    button.selected {
+        background-color: $color;
+        color: white;
+        transition: background-color 300ms ease-in;
+
+        &:hover {
+            background-color: $color;
+        }
+    }
+}
+
+
+button.flat-blue-lined {
+    border-radius: 5px;
+    background-color: transparent;
+    color: #282085;
+    border: 2px solid #282085;
+    font-family: $button-font-stack;
+    // font-weight: 300;
+    font-size: 14px;
+    height: 30px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+button.more-members {
+    border-radius: 5px;
+    background-color: #E2E1ED;
+    color: #8D8D8D;
+    border: 0;
+    font-family: $button-font-stack;
+    font-size: 14px;
+    height: 30px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+button.flat-no-border {
+    border: 0;
+    color: #8D8D8D;
+}
+
+.md-button.md-raised:not([disabled]),
+md-toast .md-toast-content .md-button,
+button.white {
+    color: black;
+}
+
+.fake-button {
+    cursor: pointer;
+}
+
+@mixin input-checkable ($imgUnchecked, $imgChecked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: $imgUnchecked;
+    outline: none;
+
+    /* makes the browser load the checked icon at the same time */
+    &::after {
+        display: none;
+        content: ' ';
+        background: $imgChecked;
+    }
+
+    &:checked {
+        background: $imgChecked;
+    }
+
+    &:not(:checked):hover {
+        filter: grayscale(100%) brightness(150%);
+        background: $imgChecked;
+    }
+}
+
+input[type="radio"] {
+    @include input-checkable(url('/img/radio.svg'), url('/img/radio-checked.svg'));
+}
+
+input[type="checkbox"] {
+    @include input-checkable(url('/img/checkbox.svg'), url('/img/checkbox-checked.svg'));
+}
+
+label {
+    cursor: pointer;
+}
+
+button.mat-icon-30 .mat-icon-button {
+    height: 30px;
+}
+
+.mat-datepicker-toggle.mat-icon-30 button.mat-icon-button {
+    height: 30px;
+}
+
+.mat-datepicker-toggle.mat-icon-30 .mat-button-wrapper {
+    top: -5px;
+    position: relative;
+}

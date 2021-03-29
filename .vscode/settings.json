@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.stablePeek": true,
+    "editor.wordWrap": "off",
+    "files.exclude": {
+        "build": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "relative",
+
+    "workbench.colorCustomizations": {
+        "[Kary Pro Colors － Dark]": {
+            "editor.findMatchBackground": "#434141"
+        }
+    }
+}

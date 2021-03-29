@@ -1,0 +1,341 @@
+
+
+// aspect ratio
+
+.video-aspect-ratio-wrapper {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+
+  .aspect-ratio-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    }
+}
+.video-aspect-ratio-wrapper:after {
+  padding-top: 56.25%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+
+
+.no-flex-fill {
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+// video player
+
+.spc-html-analyzer {
+    .spc-analyze-base {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        .spc-analyze-fix-aspect-area {
+            display: block;
+            // width: 100%;
+            // height: 100%;
+            // padding-top: 56.25%; //if the container height is too small, this will make the inner div to be bigger than its parent. creating overflow.
+            position: relative;
+            .spc-analyze-views {
+                display: block;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+            .spc-annotation-view {
+                display: block;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                // z-index: 1; // this does not allow toolbar buttons to be clicked.
+                .kinetic-container {
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+.spc-analyze-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}
+
+.videotag .fa-tag:before {
+    vertical-align: middle;
+    line-height: 32px;
+    margin-right: 6px;
+}
+
+.videotag .fa-users:before {
+    vertical-align: middle;
+    line-height: 32px;
+    margin-right: 6px;
+}
+
+.text-pretty {
+    word-wrap: break-word;
+    white-space: pre-wrap ;
+    display: block;
+}
+
+
+/// ==== player
+
+.player-zoom-in {
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.toolbar-video-edit-row-active {
+    background-color: #CFD8DC !important;
+}
+
+.toolbar-video-edit-row-created-for {
+    background-color: rgb(215, 215, 215);
+}
+
+
+// ==== trim slider
+
+.trim-slider {
+
+    height: 40px;
+
+    .bar {
+        position: absolute;
+        background-color: gray;
+        height: 4px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .anchor-left {
+        min-height: 25px;
+        height: 25px;
+        min-width: 10px;
+        border:2px solid;
+        border-left:none;
+        margin: 0;
+        position: absolute;
+        left: 0px;
+        top: -11px;
+        background-color: white;
+        z-index: 10;
+    }
+
+    .anchor-right {
+        min-height: 25px;
+        height: 25px;
+        min-width: 10px;
+        border: 2px solid;
+        border-right:none;
+        margin: 0;
+        position: absolute;
+        left: 0px;
+        top: -11px;
+        background-color: white;
+        z-index: 10;
+    }
+}
+
+
+
+// md progress circular colors
+
+
+md-progress-circular.md-progress-white path {
+    stroke: white;
+}
+
+md-progress-circular.md-progress-orange path {
+    stroke: #FF3D00;
+}
+
+md-progress-circular.md-progress-skyblue path {
+    stroke: #42A5F5;
+}
+
+md-progress-circular.md-progress-pink path {
+    stroke: #E91E63;
+}
+
+md-progress-circular.md-progress-indigo path {
+    stroke: #3F51B5;
+}
+
+///** new **///
+
+
+// mat slider
+
+mat-slider.white .mat-slider-track-wrapper .mat-slider-thumb,
+mat-slider.white .mat-slider-track-wrapper .mat-slider-thumb-label,
+mat-slider.white .mat-slider-track-wrapper .mat-slider-track-fill {
+    background-color: white;
+}
+
+mat-slider.white .mat-slider-track-wrapper .mat-slider-track-background {
+    background-color: white !important;
+}
+
+mat-slider.white .mat-slider-thumb-container .mat-slider-thumb {
+    background-color: white
+}
+
+.mat-slider:not(.mat-slider-disabled).cdk-focused .mat-slider-thumb-label{
+    background-color: white;
+
+
+    .mat-slider-thumb-label-text {
+        color: black !important;
+    }
+}
+
+// mat select
+
+$player-font-family: "Helvetica Neue",sans-serif;
+$player-font-size: 18px;
+
+
+.mat-form-field-underline {
+    bottom: 0;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 0;
+}
+
+player-control-component {
+
+    font-family: $player-font-family;
+    font-size: $player-font-size;
+
+    .mat-select {
+        font-family: $player-font-family;
+        font-size: $player-font-size;
+    }
+
+    .mat-select-value {
+        color: white;
+    }
+
+    .mat-select-arrow {
+        display: none;
+    }
+
+    .mat-select-trigger {
+        width: 100%;
+    }
+
+    .mat-form-field {
+        text-align: center;
+    }
+
+    .mat-form-field-infix {
+        width: 90px;
+        border-top: 0px;
+    }
+
+    .mat-form-field-ripple {
+        background-color: white;
+    }
+
+    .mat-focused .mat-form-field-underline .mat-form-field-ripple {
+        height: 1px;
+    }
+}
+
+/* hd quality menu  */
+
+.mat-menu-panel.quality-selection-menu {
+    border: 1px solid white;
+    border-radius: 0px;
+    background-color: black;
+    min-width: 0;
+}
+
+.mat-menu-panel.quality-selection-menu .mat-menu-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.mat-menu-panel.quality-selection-menu .mat-menu-item {
+    background-color: black;
+    padding: 0;
+}
+
+.mat-menu-panel.quality-selection-menu button {
+    min-width: 20px;
+    margin: 0 0;
+    height: 48px;
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.mat-menu-panel.quality-selection-menu button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mat-menu-panel.quality-selection-menu button span {
+    line-height: 23px;
+    padding-left: 5px;
+    padding-right: 7px;
+    color: white;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.mat-menu-panel.quality-selection-menu .hd-icon {
+    color: red;
+    font-size: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* fullscreen */
+
+.fullscreen-on .cdk-overlay-container {
+    z-index: 100000000;
+}
+
+/* hd button menu */
+.mat-menu-content .hd-icon-right {
+    color: red;
+    font-size: 14px;
+    line-height: 23px;
+}

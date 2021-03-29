@@ -1,0 +1,363 @@
+
+.dialog-room-select {
+
+    min-width: 200px;
+    height: 30px;
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    border: 1px solid rgba(204,204,204, 0.6);
+    border-radius: 6px;
+
+    .mat-select-value {
+        color: black;
+        width: 100%;
+    }
+
+    .mat-select-arrow {
+        // display: none;
+    }
+
+    .mat-select-trigger {
+        top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+}
+
+.dialog-room-select.full-trigger {
+    .mat-select-trigger {
+        height: 100%;
+        top: inherit;
+    }
+    .mat-select-value {
+        vertical-align: middle;
+    }
+}
+
+.mat-form-field.room-select {
+    width: inherit;
+    top: -13px;
+
+    &.mat-focused {
+        .mat-form-field-underline {
+            background-color: transparent;
+        }
+        .mat-form-field-ripple {
+            background-color: transparent;
+        }
+    }
+
+    .mat-form-field-underline {
+        background-color: transparent;
+        display: none;
+    }
+
+    .mat-form-field-infix {
+        width: inherit;
+        border-top: 0;
+    }
+
+    .mat-form-field-wrapper {
+        padding-bottom: 8px;
+    }
+
+    .mat-form-field-underline {
+        display: none;
+    }
+
+    .mat-form-field-ripple {
+        opacity: 0;
+        transition: none;
+    }
+
+}
+
+
+
+/* ==== mat select for rooms view */
+
+.mat-form-field.rooms-select {
+    width: inherit;
+    top: 0px;
+}
+
+.mat-form-field.rooms-select  .mat-form-field-label:not(.mat-form-field-empty) {
+    display: none;
+}
+
+.mat-form-field.rooms-select .mat-form-field-label.mat-form-field-empty {
+    position: relative;
+    padding-left: 12px;
+    top: inherit;
+    top: 36%;
+    transform: inherit !important;
+}
+
+.mat-form-field.rooms-select .mat-select {
+    display: inline-flex;
+}
+
+.mat-form-field.rooms-select.mat-focused .mat-form-field-underline {
+    background-color: transparent;
+}
+.mat-form-field.rooms-select.mat-focused .mat-form-field-ripple {
+    background-color: transparent;
+}
+
+.mat-form-field.rooms-select .mat-form-field-underline {
+    background-color: transparent;
+    display: none;
+}
+
+.mat-form-field.rooms-select .mat-form-field-infix {
+    width: inherit;
+    border-top: 0;
+}
+
+.mat-form-field.rooms-select .mat-form-field-wrapper {
+    padding-bottom: 0px;
+}
+
+.mat-form-field.rooms-select .mat-form-field-underline {
+    display: none;
+}
+
+.mat-form-field.rooms-select .mat-form-field-ripple {
+    opacity: 0;
+    transition: none;
+}
+
+.mat-form-field.rooms-select .mat-select {
+
+    min-width: 200px;
+    height: 30px;
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    border: 1px solid rgba(204,204,204, 0.6);
+    border-radius: 6px;
+}
+
+.mat-form-field.rooms-select .mat-select .mat-select-value {
+    color: black;
+    width: 100%;
+}
+
+.mat-form-field.rooms-select .mat-select .mat-select-arrow {
+    content: url(../img/icon-down-arrow.svg);
+    width: 15px;
+    height: 15px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.mat-form-field.rooms-select .mat-select .mat-select-trigger {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.mat-form-field.rooms-select .mat-select .mat-select-trigger.rooms-select-trigger {
+    display: inline;
+}
+
+.rooms-select-option {
+    color: rgb(65,65,65);
+}
+
+
+.mat-primary .mat-option.rooms-select-option.mat-selected:not(.mat-option-disabled) {
+    color: inherit;
+}
+
+.mat-select-panel .mat-option.rooms-select-option.mat-selected:not(.mat-option-multiple) {
+    background: inherit;
+}
+
+.mat-select-panel .mat-option.rooms-select-option.highlight-selected.mat-selected:not(.mat-option-multiple) {
+    background: rgba(0,0,0,.12);
+}
+
+.mat-option.rooms-select-option .sicon img {
+    display: none;
+}
+.mat-option.rooms-select-option.mat-selected .sicon img {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+// --- invite select
+
+.mat-form-field.invite-select .mat-select {
+    display: inline-flex;
+    min-width: 200px;
+    height: 42px;
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    border: 1px solid rgba(204,204,204, 0.6);
+    border-radius: 6px;
+}
+
+.mat-form-field.invite-select {
+    width: inherit;
+    top: 0px;
+}
+
+.mat-form-field.invite-select.mat-focused .mat-form-field-underline {
+    background-color: transparent;
+}
+.mat-form-field.invite-select.mat-focused .mat-form-field-ripple {
+    background-color: transparent;
+}
+
+.mat-form-field.invite-select .mat-form-field-underline {
+    background-color: transparent;
+    display: none;
+}
+
+.mat-form-field.invite-select .mat-form-field-infix {
+    width: inherit;
+    border-top: 0;
+}
+
+.mat-form-field.invite-select .mat-form-field-wrapper {
+    padding-bottom: 0px;
+}
+
+.mat-form-field.invite-select .mat-form-field-underline {
+    display: none;
+}
+
+.mat-form-field.invite-select .mat-form-field-ripple {
+    opacity: 0;
+    transition: none;
+}
+
+.mat-form-field.invite-select .mat-select .mat-select-value {
+    color: black;
+    width: 100%;
+}
+
+.mat-form-field.invite-select .mat-select .mat-select-arrow {
+    content: url(../img/icon-down-arrow.svg);
+    width: 15px;
+    height: 15px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.mat-form-field.invite-select .mat-select .mat-select-trigger {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.mat-form-field.invite-select .mat-select .mat-select-trigger.invite-select-trigger {
+    display: inline;
+}
+
+.invite-select-option {
+    color: rgb(65,65,65);
+}
+
+
+.mat-primary .mat-option.invite-select-option.mat-selected:not(.mat-option-disabled) {
+    color: inherit;
+}
+
+.mat-select-panel .mat-option.invite-select-option.mat-selected:not(.mat-option-multiple) {
+    background: inherit;
+}
+
+.mat-select-panel .mat-option.invite-select-option.highlight-selected.mat-selected:not(.mat-option-multiple) {
+    background: rgba(0,0,0,.12);
+}
+
+.mat-option.invite-select-option .sicon img {
+    display: none;
+}
+.mat-option.invite-select-option.mat-selected .sicon img {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+// --- regular player multiple videos select
+
+mat-form-field.regular-player-multiple-video-select {
+
+    .mat-select {
+        height: 30px;
+        font-size: 14px;
+        color: rgb(141, 141, 141);
+        border: none;
+    }
+
+    .mat-select-value {
+        color: white;
+        width: 100%;
+    }
+
+    .mat-select-trigger {
+        top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    &.mat-focused {
+        .mat-form-field-underline {
+            background-color: transparent;
+        }
+        .mat-form-field-ripple {
+            background-color: transparent;
+        }
+        .mat-select .mat-select-arrow {
+            color: white;
+        }
+    }
+
+    .mat-form-field-underline {
+        background-color: transparent;
+        display: none;
+    }
+
+    .mat-select-trigger .mat-select-arrow {
+        color: white;
+    }
+
+    .mat-select-value {
+        max-width: 200px;
+    }
+
+    .mat-form-field-infix {
+        min-width: inherit;
+        width: inherit;
+    }
+
+}
+
+/* Team Members Select */
+
+team-members-component .mat-form-field .mat-form-field-flex {
+    background-color: white;
+}
+
+team-members-component .mat-form-field.transparent .mat-form-field-flex {
+    background-color: transparent;
+}
+

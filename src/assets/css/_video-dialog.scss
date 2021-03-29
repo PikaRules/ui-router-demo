@@ -1,0 +1,28 @@
+
+.sp-dialog-fullscreen {
+
+    video-editor-dialog {
+        min-height: 100%;
+        min-width: 100%;
+        border-radius: 0;
+    }
+
+    .md-dialog-focus-trap {
+        display: none;
+        height: 0;
+    }
+
+    md-dialog.md-transition-in {
+        opacity: 1;
+        -webkit-transition: opacity 180ms;
+        transition: opacity 180ms;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.sp-dialog-fullscreen.mat-dialog-container {
+    padding: 0;
+    margin: 0;
+}
+

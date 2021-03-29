@@ -1,0 +1,1271 @@
+{
+    "SPOCH": {
+        "SHARED": {
+            "DIALOG": {
+                "OK": "OK",
+                "DELETE": "Delete",
+                "CANCEL": "Cancel"
+            },
+            "ROLES": {
+                "ADMINISTRATOR": "Administrator",
+                "MEMBER": "Player",
+                "EDITOR": "Player Coach",
+                "READ_ONLY": "Supporter",
+                "MEMBERS": "Players",
+                "EDITORS": "Player Coaches",
+                "READ_ONLY_USERS": "Supporters",
+                "ROLES_CAPTION": "Roles",
+                "MANAGER": "Coach",
+                "MANAGERS": "Coaches"
+            },
+            "HEADER": {
+                "LANGUAGE": "Language"
+            },
+            "FORM": {
+                "USERNAME": "name",
+                "PASSWORD": "password",
+                "EMAIL": "email",
+                "SELECT_ALL": "Select all",
+                "DESELECT_ALL": "Deselect all",
+                "SINGUP_USERNAME": "name",
+                "SINGUP_FULLNAME": "full name"
+            },
+            "RELATIVE_DATE": {
+                "TODAY": "Today",
+                "YESTERDAY": "Yesterday",
+                "DAYS_REMAINING": "&nbsp;days",
+                "REMAINING_DATE": "&nbsp;in&nbsp;"
+            },
+            "MISC": {
+                "ANNOTATION": "Annotation",
+                "CREATE_TEAM_NO_PERMISSION": "You do not have permission to create a Team. Please ask a Team administrator for an invitation to join a Team. <br> Please contact us if you would like to create a Team. <br> <a class='sp-button primary no-underlined' href='http://products.splyza.com/teams/trial/'>Request Team</a>",
+                "CREATE_TEAM_AT_LIMIT": "You cannot create more than {{max}} team(s) on this account.",
+                "ROOM": "Rooms",
+                "TEAM_MEMBERS": "Team Members",
+                "UPLOAD_VIDEO": "Upload Video",
+                "TEAM_NOTIFICATIONS": "Team Notifications",
+                "ORGANIZATION_NOTIFICATIONS": "Organization Notifications",
+                "UPLOAD_STATE": "Uploads",
+                "LOGIN": "Sign In",
+                "THERE_IS_NEW_VERSION": "There is a new version available for SPLYZA Teams.",
+                "REFRESH_PAGE": "Refresh Page",
+                "EDIT_TEAM": "Edit Team",
+                "SAVE_CHANGES": "Save Changes",
+                "SAVE": "Save",
+                "ERROR_OCCURRED_DETAILS": "An error occurred. Please check your details and try again.",
+                "ERROR_OCCURRED": "An error occurred.",
+                "UNEXPECTED_ERROR_OCCURRED": "An unexpected error occurred.",
+                "ERROR": "Error",
+                "SEARCH_BY_NAME": "Search by name",
+                "GROUP": "Group",
+                "ROLE": "Role",
+                "DELETE": "Delete",
+                "EDIT": "Edit",
+                "CANCEL": "Cancel",
+                "DONE": "Done",
+                "SAVE_SHORT": "Save",
+                "CREATE": "Create",
+                "ADD": "Add",
+                "CREATE_TAG_GROUP": "Create Tag Group",
+                "CREATE_TEAM_GROUP": "Create Team Group",
+                "ADD_TAG": "Add Tag",
+                "GROUP_NAME": "Group name",
+                "TAG_NAME": "Tag name",
+                "CLOSE": "Close",
+                "ROOM_SINGLE": "Room",
+                "POST": "Post",
+                "SEND": "Send",
+                "TITLE": "Title",
+                "COMMENT": "Comment",
+                "COMMENTS": "Comments",
+                "EDIT_DONE": "Done",
+                "SEARCH_PLACEHOLDER": "Search",
+                "LOAD_MORE_ITEMS": "Load more",
+                "LOAD_MORE_BUTTON": "Load more",
+                "WELCOME_TO_SPOCH": "Welcome to SPLYZA Teams",
+                "LOADING": "Loading...",
+                "COMMON_OPERATION_NOTSUCCESS": "The process could not be completed.",
+                "VIDEO": "Video",
+                "PLAY_FROM_TIME": "Play {{time}}",
+                "LOGIN_FAIL": "There was a problem logging you in. Please check your details and try again.",
+                "STORAGE_STATS_ERROR": "Cannot get storage stats.",
+                "VIDEO_NOT_FOUND": "Video not found.",
+                "CONFIRM_DELETE": "Are you sure you want to delete this item?",
+                "CONFIRM_DELETE_PROPS": "Are you sure you want to delete '{{text}}'?",
+                "DELETE_GROUP": "Delete group",
+                "NO_SUPPORTED_BROWSER_MSG": "The browser you are using is not currently supported. <br> This app supports Chrome only. <br> ",
+                "DOWNLOAD_CROME_LINK": "<a href='https://www.google.co.jp/chrome/browser/desktop/'>Download chrome</a> ",
+                "NO_SUPPORTED_DOWNLOAD_APP_IPHONE": "Download SPLYZA Teams for iPhone",
+                "NO_SUPPORTED_DOWNLOAD_APP_IPAD": "Download SPLYZA Teams for iPad",
+                "NO_SUPPORTED_DOWNLOAD_APP_ANDROID": "Donwload SPLYZA Teams for Android",
+                "GET_BETTER_EXPERIENCE_WITH_APP": "Get a better experience with our app",
+                "NAVIGATE_AWAY": "Are you sure you want to leave? Any usaved changes will be lost.",
+                "ROOM_AUTHOR": "Room Author",
+                "VIEW_PROFILE": "View Profile",
+                "GROUPS": "Groups",
+                "MEMBERS": "Members",
+                "ERROR_DETAILS": "Error details",
+                "PASSWORD_RULES": "Password must have between 8 and 20 characters, containing at least 1 letter and 1 number.",
+                "END_MODAL": "OK",
+                "ERROR_CONNECTION": "Unable to connect to server. Please check your internet connection and try again later.",
+                "THREAD_DETAILS": "Details",
+                "ORGANIZATION_LIST_0": "You are not a member of any organizations.",
+                "NOT_FOUND": "Not found",
+                "SELECT_ONE_GROUP": "None",
+                "SELECT_ONE_ROLE": "None",
+                "CSV_DOWNLOAD": "Download csv",
+                "TEAMS": "Teams",
+                "DEFAULT": "Default",
+                "COLLAPSE_ALL": "Collapse All",
+                "EXPAND_ALL": "Expand All",
+                "SAVE_OR_RESTORE": "Would you like save to this device to restore later?",
+                "REQUIRED": "Required",
+                "TIME": "Time",
+                "FREE": "Free",
+                "SELECT_RIGHT_PICTURE_FORMAT": "The selected image must be png or jpeg.",
+                "CANNOT_OPEN_EMAIL_CLIENT": "Cannot send email because email client was not found.",
+                "OPEN": "Open",
+                "OPEN_APP": "Open the app",
+                "DRAFT": "Draft",
+                "TEAM_ICON": "Team icon",
+                "UNDO": "Undo",
+                "REDO": "Redo",
+                "VIDEO_NO_AVAILABLE": "This video no longer exists.",
+                "NOT_SHOW_AGAIN": "Don't show again"
+            },
+            "UPLOAD": {
+                "DROP_PROMPT1": "Drop files here",
+                "DROP_PROMPT2": "or click below to select",
+                "SELECT_FILE": "Select file",
+                "ERRORS": {
+                    "403": "You don't have permission to upload videos.",
+                    "400": "An error occurred processing the request. (10)",
+                    "404": "An error occurred processing the request. (10.4)",
+                    "HEADER_MISSING": "An error occurred processing the request. (12)",
+                    "NOT_ALL_CHUNKS_UPLOADED": "An error occurred. (11)",
+                    "FAILED_CUS_NETWORK_ISSUE_TRY_AGAIN": "The upload was unsuccessful due to network problems. Please check your connection and try again.",
+                    "CODE_ERROR": "An error occurred. (15)",
+                    "CONVERSION_PROCESS_STATUS_ERROR": "Conversion failed. (16)",
+                    "CONVERSION_PROCESS_INVALID_PROGRESS": "Conversion failed. (17)"
+                },
+                "FORMAT_ERRORS": {
+                    "FILE_NAME": "File name must have between 1 and 256 characters.",
+                    "UPLOAD_TITLE": "Upload title must have between 1 and 1000 characters.",
+                    "FILE_SIZE": "Cannot upload an empty file.",
+                    "UPLOAD_DESCRIPTION": "Upload description is too long.",
+                    "RECORDED_DATE": "Recorded date cannot be before January 1, 1900."
+                },
+                "SERVER_ERRORS": {
+                    "INVALID_ROOM_OWNER":  "An error ocurred. (21)",
+                    "NOT_ENOUGH_STORAGE":  "Not enough storage.",
+                    "NO_CHUNKS_INFO":  "An error occurred. (22)",
+                    "INVALID_UPLOAD_OWNER":  "An error occurred. (23)",
+                    "UNAUTHORIZED_TAGS":  "An error occurred. (24)",
+                    "UPLOAD_ALREADY_PROCESSED":  "An error occurred. (25)",
+                    "INVALID_VIDEO": "The file does not appear to be a valid video.",
+                    "MERGE_RESOLUTION_MISMATCH": "All videos must have the same resolution when merging."
+                }
+            },
+            "AUTOANALYZER": {
+                "ANALYZE_FAILED": "<div style='margin: 6px; font-size: 14px; color: #414141;'><p>The video could not be processed. <br><br> Please try with a video that meets the following conditions <br> <br> <br> · Sport is only for football correspondence <br>· Each line of the field can be clearly seen with natural turf or artificial turf <br>· Movie taken from an angle where the field can be viewed <br> <br> <br> * Extreme zooming and panning that is too fast (horizontal swinging) cause errors.</p></div>",
+                "NETWORK_ERROR": "Analysis failed due to network problems. Please check your connection and try again.",
+                "NO_ANALYSIS_DATA": "Video does not have analysis data.",
+                "CODE_ERRORS": {
+                    "NOT_VIDEO_THREAD": "An unexpected error ocurred. (31)",
+                    "MULTIPLE_VIEW": "This cannot be used for side by side videos.",
+                    "NO_VIEWS": "An unexpected error ocurred. (32)"
+                }
+            },
+            "STORAGE": {
+                "USED": "used",
+                "UP_TO": "Up to",
+                "LEFT": "available",
+                "SECONDS_CAPTION": "{{hours}} hours used",
+                "SECONDS_CAPTION_MINUTES": "{{hours}} hours, {{minutes}} minutes used",
+                "SECONDS_LEFT": "{{hours}} hours available",
+                "SECONDS_LEFT_MINUTES": "{{hours}} hours, {{minutes}} minutes available",
+                "SECONDS_LIMIT": "Up to {{hours}} hours",
+                "SECONDS_LIMIT_MINUTES": "Up to {{hours}} hours and {{minutes}} minutes",
+                "MEMORY_USAGE_STATUS": "Storage"
+            },
+            "EMPTY": {
+                "VIDEO": {
+                    "TITLE": "There are no videos",
+                    "BUTTON": "Upload video"
+                },
+                "MEMBERS": {
+                    "TITLE": "There are no members",
+                    "MSG": "Invite others to join your team.",
+                    "BUTTON": "Invite members"
+                },
+                "ORG_TEAMS": {
+                    "TITLE": "There are no teams",
+                    "MSG": "Invite teams to join your organization.",
+                    "BUTTON": "Invite teams"
+                },
+                "ROOMS": {
+                    "TITLE": "There are no rooms",
+                    "MSG": "Start by creating a Room to upload videos.",
+                    "BUTTON": "Create room"
+                },
+                "GROUPS": {
+                    "TITLE": "There are no groups",
+                    "MSG": "Create groups to manage users.",
+                    "BUTTON": "Create group"
+                },
+                "ANALYSIS": {
+                    "TITLE": "There are no data for analysis",
+                    "MSG": "Lets going to select videos with tags",
+                    "BUTTON": "Create video with tags"
+                },
+                "NOTIFICATIONS": {
+                    "TITLE": "There are no notifications"
+                },
+                "TIME_TAGS": {
+                    "TITLE": "There are no time tags",
+                    "TITLE_GENERAL": "There are no tags",
+                    "TITLE_RECENT": "There are no recent tags",
+                    "MSG": "Add time tags for use in videos"
+                },
+                "PLAYLIST": {
+                    "NO_VIDEOS": "To add a video, first open it and tap add to playlist button."
+                }
+            },
+            "DRAWING_TOOLS": {
+                "POINTER": "Select",
+                "ARROW": "Arrow",
+                "CIRCLE": "Ellipse",
+                "SQUARE": "Polygon",
+                "LINE": "Line",
+                "PEN": "Free draw",
+                "CALLOUT": "Text",
+                "TAGS": "Add Time Tags",
+                "ARROW_SELECTION": {
+                    "REGULAR": "",
+                    "DASHED": "",
+                    "WAVE": ""
+                }
+            }
+        },
+        "COMPONENTS": {
+            "TERMS_MODAL": {
+                "HEADER": "Terms of Service",
+                "ACCEPT_BUTTON": "Accept",
+                "DECLINE_BUTTON": "Decline"
+            },
+            "PRIVACY_MODAL": {
+                "HEADER": "Privacy Policy"
+            },
+             "TEAM_MENU": {
+                "MY_PAGE": "My Page",
+                "TEAM": "Team",
+                "ROOM": "Room",
+                "ANNALYSIS": "Analysis",
+                "VIDEO_UPLOAD": "Upload Video",
+                "NOTIFICATIONS": "Notifications",
+
+                "TEAM_TOP": "Team Top",
+                "MEMBERS_LIST": "Members",
+                "INVITE_MEMBERS": "Invite Members",
+                "UPLOAD_VIDEO": "Upload Video",
+                "ROOM_LIST": "Rooms",
+                "CHANGE_TEAM": "Change Team",
+                "CREATE_TEAM": "Create Team",
+                "CREATE_ROOM": "Create Room",
+                "CREATE_PLAYLIST": "Create Playlist",
+
+                "TEAM_NOTIFICATIONS": "Team Notifications",
+                "UPLOAD_STATE": "Uploads",
+
+                "HELP": "Help",
+                "CONTACT_US": "Contact Us",
+                "TERMS_OF_SERVICE": "Terms of Use",
+                "PRIVACY_POLICY": "Privacy Policy",
+                "ABOUT_US": "About Us",
+                "KEYBOARD_SHORTCUTS": "Keyboard Shortcuts",
+                "LOGOUT": "Log out",
+
+                "LOGIN": "Sign In",
+                "SEARCH_PLACEHOLDER": "Search vidoes",
+                "ANALYSIS": "Analysis"
+
+            },
+            "ORGANIZATION_MENU": {
+                "VIDEOS": "Videos",
+                "UPLOAD_VIDEO": "Upload Video",
+                "TEAMS": "Teams",
+                "INVITE_TEAMS": "Invite Teams",
+                "CHANGE_ORGANIZATION": "Change Organization"
+            },
+             "APP_DETAILS_CARRUSELL": {
+                "MAIN": {
+                    "TITLE": "Win. Together.",
+                    "SUBTITLE": "Analyze team play together, with SPLYZA Teams."
+                }
+            },
+            "VIDEO_PLAYER": {
+                "PREV_TAG": "Previous Tag",
+                "NEXT_TAG": "Next Tag",
+                "TIME_FRAME_AND_TAG": "Time Frames",
+                "DATE_AND_TIME": "Date and Time",
+                "HIGH": "High",
+                "LOW": "Low",
+                "VIDEO_QUALITY": "Video Quality",
+                "PREVIOUS_FRAME": "Previous Frame",
+                "NEXT_FRAME": "Next Frame",
+                "SKIP_5_BACKWARD": "Backward 5 Seconds",
+                "SKIP_5_FOWARD": "Forward 5 Seconds",
+                "REPRODUCTION_SPEED": "Playback Speed",
+                "PAUSE_ON_ANNOTATION": "Pause on Drawing",
+                "NEXT_VIDEO": "Next",
+                "PREV_VIDEO": "Back",
+                "ADD_TO_PLAYLIST": "Add to Playlist",
+                "SCALE_MENU": {
+                    "ZOOMIN": "Zoom in",
+                    "ZOOMOUT": "Zoom out",
+                    "RESTORE": "Restore"
+                }
+            },
+            "VIDEO_UPLOAD_MODAL": {
+                "SELECT_FILE": "Add a file",
+                "TITLE": "Title",
+                "RECORDED_DATE": "Recorded Date",
+                "COMMENT": "Comment",
+                "TAG_VIDEO": "Tag Video",
+                "DELETE": "Delete",
+                "UPLOAD_TO": "Upload to",
+                "UPLOAD_ALL": "Upload All",
+                "UPLOAD": "Upload",
+                "CANCEL": "Cancel",
+                "RETRY": "Retry",
+                "COMBINE_ALL_FILES": "Merge all videos",
+                "UNCOMBINE_ALL_FILES": "Unmerge videos",
+                "UNSET": "Unset",
+                "MERGE_COLLECTION_MESSAGE": "Combines into one video in order from the beginning.",
+                "ORDER_BY_TITLE": "Sort by title",
+                "ORDER_BY_DATE": "Sort by recorded date"
+            },
+            "UPLOAD_NOTIFICATIONS": {
+                "UPLOADING": "Uploading to room {{room}}...",
+                "COMMITTING": "Finalizing upload to {{room}}...",
+                "PROCESSING": "Processing upload in {{room}}... ",
+                "FAILED": "The upload failed.",
+                "TRY_AGAIN": "Try again.",
+                "COMPLETE": "Uploading to room {{room}} is complete.",
+                "RETRY": "Retry",
+                "NETWORK_ISSUES": "There appears to be a problem with your network.",
+                "WAITING_ON_QUEUE": "Waiting to upload...",
+                "CANCEL_CONFIRMATION": "Are you sure you want to cancel uploading \"{{name}}\"?",
+                "CANCEL_ERRORED": "This upload canot be cancelled because it is in a failed state.",
+                "CANCEL_COMPLETED": "This upload canot be cancelled because it is already complete."
+            },
+            "THREAD_SEARCH": {
+                "SEARCH_BY": "Search for <b>{{value}}</b>"
+            },
+            "INVITE_PANEL": {
+                "INVITE_URL": "Invite link ",
+                "COPY_URL": "Copy",
+                "SEND_EMAIL": "Send email",
+                "OR": "or",
+                "PREVIEW_MSG": "The invite link will open a page like this:",
+                "EMAIL_DIALOG_PROMPT": "E-mail address",
+                "ERRORS": {
+                    "GENERAL_ERROR": "An internal error has occurred. Please send the invitation URL to <a href=\"support.teams@splyza.zendesk.com\">support.teams@splyza.zendesk.com</a> for investigation.",
+                    "MAX_MEMBERS_REACHED": "This team has reached the maximum number of members allowed. Please contact the team administrator.",
+                    "MAX_SUPPORTS_REACHED": "This team has reached the maximum number of supporters allowed. Please contact the team administrator.",
+                    "TEAM_NOT_FOUND": "The team for this invitation no longer exists.",
+                    "NETWORK_ERROR": "Unable to connect to server. Please check your internet connection and try again later.",
+                    "INVITE_EXPIRED": "This invitation has expired, contact the team administrator to get a new invitation.",
+                    "INVITE_INVALID": "This invitation is no longer valid. Please contact the team administrator to get a new invitation."
+                },
+                "AFTER_COPY_DIALOG_MESSAGE": "The url has been copied.",
+                "URL_VALID_ONE_WEEK": "URL is valid for 1 week"
+            },
+            "TAG_REMOVE_MODAL": {
+                "TITLE": "Copy time tags and annotations?",
+                "MESSAGE": "Tags and annotations cannot be copied later.",
+                "OK_BUTTON": "Copy",
+                "CANCEL_BUTTON": "Don't Copy"
+            },
+            "DEFAULT_ROOM_ICON_MODAL": {
+                "SELECT_IMAGE": "Select image",
+                "SELECT_FILE": "Select from file"
+            },
+            "DISSECTED_VIDEO": {
+                "LEFT_SIDE_TEAM": "Left side team",
+                "RIGHT_SIDE_TEAM": "Right side team",
+                "BALL": "Ball",
+                "DOMINANCE_RATE": "Dominance",
+                "NUMBER_RANGE": "Number Range",
+                "ANALYSIS_SCENE": "Analysis Scene",
+                "KAI": "",
+                "START_AUTO_ANALYSIS": "Start Auto Analaysis (beta)",
+                "ANALYSIS_RESULTS": "Analysis Results (beta)",
+                "ANALYSIS_PROCESSING": "Analyzing",
+                "ANALYSIS_ERROR": "Analysis Error",
+                "ANALYSIS_CONFIRM_MESSAGE": "<div style='margin: 6px; font-size: 14px; color: #414141;'><p>Automatic analysis is a function designed for field sports <br> The following conditions must be met for analysis. <br> <br> · Sport is only for football correspondence <br>· Each line of the field can be clearly seen with natural turf or artificial turf <br>· Movie taken from an angle where the field can be viewed <br> <br> * Extreme zooming and panning that is too fast (horizontal swinging) cause errors.</p></div>",
+                "INCLUDE_AUTO_ANALYSIS": "Auto Analyze Video",
+                "GAME_AUTO_TAGS": {
+                    "SwitchOffense": "SwitchOffense",
+                    "ThrowIn": "ThrowIn",
+                    "CornerKick": "CornerKick",
+                    "GoalKick": "GoalKick",
+                    "FreeKick": "FreeKick",
+                    "AttackingThirdLR": "AttackingThirdLR",
+                    "AttackingThirdRL": "AttackingThirdRL"
+                }
+            },
+            "DETAILED_ALERT": {
+                "TITLE_ERROR_OCURRED": "The operation can’t be completed.",
+                "REASONS_TITLE": "Possible reasons:",
+                "ACTIONS_TITLE": "Solutions:",
+                "ERRORS": {
+                    "NETWORK_ERROR": "The network connection was interrupted.",
+                    "INTERNAL_SERVER_ERROR": "There was an unhandled error.",
+                    "MEMBER_NOT_EXISTS": "One or more selected users are no longer members of the team.",
+                    "MEMBER_EXISTS_IN_GROUP": "The selected member already exists in this group.",
+                    "GROUP_NOT_EXISTS": "One or more of the selected groups no longer exist.",
+                    "GROUP_EXISTS": "A group with this name already exists.",
+                    "CANNOT_ADD_MEMBER_TO_GROUP": "One or more selected members could not be added to this group.",
+                    "RESOURCE_DELETED": "The selected resource no longer exists.",
+                    "ROOM_DELETED": "The selected room no longer exists.",
+                    "THREAD_DELETED": "The selected video no longer exists.",
+                    "VIDEO_DELETED": "The selected video no longer exists.",
+                    "TEAM_DELETED": "The selected team no longer exists.",
+                    "TAG_NOT_EXISTS": "The selected tags no longer exists.",
+                    "TAG_EXISTS": "A tag with that name already exists.",
+                    "COMMENT_DELETED": "The comment no longer exists.",
+                    "USER_NOT_PERMISSIONS_ROOM": "You are not allowed to perform this operation.",
+                    "USER_NOT_PERMISSIONS": "You are not allowed to perform this operation.",
+                    "TAGGED_MEMBERS_NOT_VALID": "One or more tagged users are no longer members of this team or organization.",
+                    "USER_ADMIN_NOT_DELETE": "Users who are team administrators cannot be deleted.",
+                    "ERROR_OCURRED": "An unexpected error occurred."
+                },
+                "CODE_ERRORS": {
+                    "NOT_TEAM_MEMBER": "This user is no longer a member of your team.",
+                    "ALREADY_IN_GROUP": "This user is already a member of the group.",
+                    "INVALID_TARGET_ROLE": "An unexpected error occurred. c.41",
+                    "CANT_CHANGE_ADMIN": "An unexpected error occurred. c.42",
+                    "MAX_MEMBERS_REACHED ": "You cannot move the user to this role because it would exceed the team's member limit.",
+                    "MAX_READ_ONLY_REACHED": "You cannot move the user to this role because it would exceed the team's supporter limit.",
+                    "ALREADY_EXISTS": "{{item}} already exists.",
+                    "NOT_VIDEO_THREAD": "An unexpected error occurred. c.43",
+                    "INVALID_TAGS": "One or more tagged users are no longer members of this team.",
+                    "NOOP": "An unexpected error ocurred. c.44",
+                    "MAX_TEAMS_REACHED": "You have reached the maximum number of teams that you are allowed to create."
+                },
+                "ACTIONS": {
+                    "CHECK_INTERNET": "Please check your internet connection and try again.",
+                    "REFRESH_PAGE": "Please refresh the page and try again."
+                },
+                "PROBLEM_PERSISTS": "Contact support if the issue persists."
+            },
+            "NOT_FOUND": {
+                "ROOM": "<span style=\"font-size: 15px; \">This room does not exist or</span><br><span style=\"font-size: 15px; \">it was deleted.</span>",
+                "USER_PROFILE": "<span style=\"font-size: 15px; \">the requested user is not member of this team or</span><br><span style=\"font-size: 15px; \">the user does not exist.</span>",
+                "GENERAL": "<span style=\"font-size: 15px; \">This resource doesn't exist or it was deleted.</span>",
+                "VIDEO": "<span style=\"font-size: 15px; \">This video does not exist.</span>",
+                "PLAYLIST": "<span style=\"font-size: 15px; \">This playlist does not exist.</span>",
+                "TEAM": "<span style=\"font-size: 15px; \">This team does not exist.</span>",
+                "ANALYSIS_SELECTED_VIDEO": "<span style=\"font-size: 15px; \">Cannot find the selected videos on this team.</span>",
+                "REDIRECTS": {
+                    "VIDEO": "Back to Videos",
+                    "ROOM": "Back to Room Videos",
+                    "ROOMS": "Back to Rooms",
+                    "TEAMS": "Back to Team Top"
+                }
+            },
+            "NOT_FOUND_ORGANIZATION": {
+                "ORGANIZATIONS_EMPTY": "<span style=\"font-size: 15px; \">Your dont' have any organization</span>",
+                "ORGANIZATION": "<span style=\"font-size: 15px; \">This organization does not exist.</span>",
+                "REDIRECTS": {
+                    "VIDEO": "Back to Videos",
+                    "ROOM": "Back to Room Videos",
+                    "ROOMS": "Back to Rooms",
+                    "ORGANIZATION": "Back to Organization Top"
+                }
+            },
+            "USAGE_REQUEST": {
+                "ACCOUNT_RENEWAL": "Account Renewal",
+                "REQUEST_NEW_TEAM": "Request New Team",
+                "APPLICATION_REQUEST": "SPLYZA Teams, Team Request",
+                "SIGNUP_PANEL_TITLE": "You need an account in order to create a team.",
+                "SIGNUP_PANEL_TITLE2": "You need an account in order to create a team.",
+                "CRUMB": {
+                    "STEP1": "1. Admin Registration/Sign in",
+                    "STEP2": "2. Team Info",
+                    "STEP3": "3. Survey",
+                    "STEP4": "4. Team Creation"
+                },
+                "SPORTS": {
+                    "A1": "Ice hockey",
+                    "A2": "Soccer",
+                    "A3": "Basketball",
+                    "A4": "Volleyball",
+                    "A5": "Handball",
+                    "A6": "Beach volleyball",
+                    "A7": "Field hockey",
+                    "A8": "Futsal",
+                    "A9": "Baseball",
+                    "A10": "Rugby",
+                    "A11": "Lacrosse",
+                    "A12": "Athletics",
+                    "A13": "Tennis",
+                    "OTHER_SPORTS": "Other (please enter)"
+                },
+                "TEAM_GENDER": {
+                    "MAN": "Mens/Boys",
+                    "WOMEN": "Womens/Girls",
+                    "MIXED": "Mixed",
+                    "UNKNOWN": "Unknown"
+                },
+                "TEAM_INFO": {
+                    "RENEW_PAGE_CONTENT": "This application form is for creating a new team in SPLYZA Teams. Application for continued use after the trial period ends please apply from this other page",
+                    "RENEW_PAGE_CONTENT_BUTTON": "Application for continued use",
+                    "RENEW_APPLICATION_BEING_PROCESSED": "Your renewal application is being processed.",
+                    "TITLE": "Please enter information about your team.",
+                    "COMPANY_NAME": "Company name or affiliated organization name",
+                    "ADMINISTRATOR": "Name of the person in charge",
+                    "EMAIL": "Email address",
+                    "EMAIL_PLACEHOLDER": "Write down the email address of the login account",
+                    "PHONE_NUMBER": "Phone number",
+                    "POSTAL_CODE": "Postal code",
+                    "SEARCH_ADDRESS": "Search address",
+                    "ADDRESS": "Address",
+                    "ADDRESS_PLACEHOLDER": "Building name",
+                    "TEAM_NAME": "Team",
+                    "NUMBER_OF_MEMBERS": "Number of accounts",
+                    "PEAPLE_COUNTER": "",
+                    "PLAN": "Plan",
+                    "FREE_PLAN": "1 month free trial ",
+                    "START_PLAN": "Lite ",
+                    "STANDARD_PLAN": "Basic ",
+                    "PREMIUM_PLAN": "Advanced ",
+                    "FREE_PLAN_PART2": "1 team / 720p / No account limit / Upload 15 hours",
+                    "START_PLAN_PART2": "1 team / 720p / 20 minutes per account",
+                    "STANDARD_PLAN_PART2": "1 team / 1080p / 40 minutes per account",
+                    "PREMIUM_PLAN_PART2": "1 team / 1080p / 60 minutes per account",
+                    "FREE_PLAN_WARNING": "All plans include one month free.",
+                    "NEXT": "Next",
+                    "COUNTRY": "Country",
+                    "MONEY_TO_PAY": "Payment amount",
+                    "RAW_PLAN": "Plan",
+                    "TEAM_NAME_PLACEHOLDER": "Splyza football soccer Team",
+                    "FULL_NAME": "Full name",
+                    "CONTACT_ROLE": "Role",
+                    "CONTACT_ROLEB": "coach, etc.",
+                    "SEMINAR_DATE_TITLE": "Requested Seminar Date/Time",
+                    "LEVEL": "Level",
+                    "STATE": "Prefecture",
+                    "STATE_OVERSEAS": "Overseas",
+                    "STATE_OTHER": "Other",
+                    "TYPE_OF_SEMINAR": "Seminar Type (free)",
+                    "TYPE_OF_SEMINAR_OPTIONS": {
+                        "WEB": "Live Web Seminar",
+                        "VISITING": "In-person Seminar",
+                        "NO_TRAINING": "No Seminar"
+                    },
+                    "SPECIAL_PLAN_MESSAGE": {
+                        "TITLE": "Invite other teams！",
+                        "LINE1": "",
+                        "LINE2": "※Introduce another team to SPLYZA Teams and get your trial period extended for 2 weeks. ",
+                        "LINE3": "※The extension with be added once a new team is created."
+                    },
+                    "LEVEL_OPTIONS": {
+                        "HIGH_SCHOOl": "High School",
+                        "COLLAGE": "College",
+                        "JUNIOR": "Junior High",
+                        "ELEMENTARY": "Elementary",
+                        "PRO": "Pro",
+                        "AMATEUR": "Amateur",
+                        "OTHER": "Other"
+                    },
+                    "INVOICE_DETAIL": "*Invoice will be send to all registered email addresses.",
+                    "ADD_MORE_TEAMS_ALERT_MSG": "Only one team can be created per account. If you want to create additional teams, please contact teams.support@splyza.com."
+                },
+                "SURVEY": {
+                    "TITLE": "Please answer the following questions so that we may provide a better service.",
+                    "SPORT_TYPE": "Sport",
+                    "TEAM_GENDER_TITLE": "Gender",
+                    "SELECT_PLEASE": "Please select one",
+                    "OTHER_ADD_HERE": "Enter your sport here",
+                    "MAIN_USES": "Main reason(s) for using SPLYZA Teams",
+                    "GAME_ANALYSIS": "Analysis / review of games",
+                    "SHARE_FAST": "Quick sharing of videos",
+                    "TAGGING_VIDEO": "Detailed analysis by adding tags to recorded video",
+                    "DRAWING_TOOLS": "Drawing on videos to highlight specific events",
+                    "PARENTS_SHARE": "Share information with parents",
+                    "MAKE_DVD": "Removing the need to create and distribute DVDs",
+                    "PLAYER_PRACTICE": "As a learning aid for athletes",
+                    "SHARE_COACH_INFO": "Information sharing between coaches",
+                    "OTHERS": "Other",
+                    "SPLYZA_USAGE_OBJECTIVE": "What are your expectations about using SPLYZA Teams",
+                    "WHY_DECIDE_USE_SPLYZA": "Why did you decide to use SPLYZA Teams",
+                    "HOW_FOUND_SPLYZA": "How did you hear about SPLYZA Teams?",
+                    "FOUND_ADVERT": "Advert",
+                    "FOUND_CALL": "Cold Call",
+                    "FOUND_DIRECT": "Direct",
+                    "FOUND_INTERNET": "Internet Search",
+                    "FOUND_NEWS": "News",
+                    "FOUND_PARTNER": "Partner",
+                    "FOUND_REFERRAL": "Referral",
+                    "FOUND_SOCIAL": "Social Media",
+                    "FOUND_LAB": "Sports Analytics Lab",
+                    "FOUND_TRADE": "Trade Show",
+                    "FOUND_WEB": "Website",
+                    "FOUND_SHIRIAI": "Referral",
+                    "FOUND_ANALYTICS_LAB": "Sports Analytics Lab",
+                    "FOUND_OTHERS": "Other",
+                    "FOUND_REASON": "Please enter the specific location, publication, or person",
+                    "SHOP_NAME": "In the case of applying via an agent, fill in the agency name.",
+                    "START_CREATE_TEAM": "Next",
+                    "AGENCY_NAME": "Agency name",
+                    "BACK_TO_TEAM_INFO": "Previous",
+                    "TEAM_CHALLENGES": "What challenges does your team face?"
+                },
+                "PAY_FORM": {
+                    "ADDITIONAL_ACCOUNT": "Additional account",
+                    "ADDITIONAL_ACCOUNT_INFO1": "※each additional account：{{price}}¥/Month",
+                    "ADDITIONAL_ACCOUNT_INFO2": "※ Price per user: {{price}}¥/month",
+                    "TOTAL_UPLOAD_TIME": "Total Upload Time： <span class='total-upload-time'>{{hours}}</span>Hours",
+                    "TOTAL_UPLOAD_TIME_FULL": "Total Upload Time： <span class='total-upload-time'>{{hours}}</span>Hours  <span class='total-upload-time'>{{minutes}}</span>Minutes",
+                    "SUPPORT_ACCOUNT": "Support account",
+                    "PAY_METHOD": "Payment period",
+                    "PAY_METHOD2": "Payment method",
+                    "INVOICE_METHOD": "Invoice issue method",
+                    "PERSON_COUNTER": "",
+                    "FREE_WORKSHOP": "Request free seminar",
+                    "BLUE_MSG": {
+                        "MONEY_TO_PAY": "Payment amount",
+                        "DETAILS1_MONTH_TITLE": {
+                            "E": "( {{plan}} plan monthly amount + supporter accounts ) × 1 month (monthly payment) + Mailing ",
+                            "PLAN": "{{plan}} plan monthly amount",
+                            "ADITIONAL_ACCOUNTS": "additional accounts",
+                            "SUPPORT_ACCOUNTS": "supporter accounts"
+                        },
+                        "DETAILS1_MONTH": {
+                            "E": "({{subtotal}}¥ + {{supportPrice}}¥ × {{support}}) × 1 month + {{mail}}¥ ",
+                            "PLAN": "{{subtotal}}¥x{{members}}",
+                            "ADITIONAL_ACCOUNTS": "",
+                            "SUPPORT_ACCOUNTS": "{{supportPrice}}¥×{{support}}",
+                            "MAIL": "{{mail}}¥"
+                        },
+                        "DETAILS2": "※In the case of annual payment, the discount for two months is applied and the capacity of 12 months of video storage capacity becomes available at the time of payment.",
+                        "MONTH": "¥/month",
+                        "YEAR": "¥/year",
+                        "START_PLAN": "Lite",
+                        "STANDARD_PLAN": "Basic",
+                        "PREMIUM_PLAN": "Advanced",
+                        "RESULT_PAYMENT_MONTHLY1": "1 Month",
+                        "RESULT_PAYMENT_MONTHLY2": "(Monthly)",
+                        "RESULT_PAYMENT_YEARLY1": "1 Year",
+                        "RESULT_PAYMENT_YEARLY2": "(Yearly)",
+                        "INVOICE_SEND_METHOD": "Mailing",
+                        "SUBTOTAL": "Subtotal",
+                        "TAXES": "Taxes",
+                        "TOTAL": "Total",
+                        "YEN_SYMBOL": "¥",
+                        "INITIAL_PAY_TITLE": "Initial cost"
+                    },
+                    "REUSE_NAME": "Allow the team name to be posted in the use field of the product page",
+                    "SELECT_AN_OPTION": "Please select an option",
+                    "PAY_METHOD1_OPTIONS": {
+                        "MONTHLY": "Monthly",
+                        "ANNUAL": "Yearly"
+                    },
+                    "PAY_METHOD2_OPTIONS": {
+                        "DEPOSIT": "Bank transfer",
+                        "CARD": "Credit card (we will inform you separately)",
+                        "CARD2": "Credit card"
+                    },
+                    "INVOICE_OPTIONS": {
+                        "EMAIL": "e-mail",
+                        "NORMAL_MAIL": "Mail (100 yen will be added for each request)",
+                        "NORMAL_MAIL2": "Mail"
+                    },
+                    "SELECT_SOMETHING": "Select an option"
+                },
+                "MESSAGES": {
+                    "REQUEST_CREATED_TITLE": "We have accepted the application",
+                    "REQUEST_CREATED": " We will proceed with the invoice issuance procedure according to the contents you entered. <br>Please pay the transfer to the account described in the invoice sent to your email. <br>We will contact you separately for payment methods with credit card. <br>If you don't receive an email contatc us here: teams.support@splyza.com.",
+                    "RECENT_CREATED_TEAM_TITLE": "Your team has been created",
+                    "RECENT_CREATED_TEAM_BODY": "<span>Thank you for your applying for a team and completing the survey.</span><span>Your team \"{{teamName}}\" has been created within the SPLYZA Teams software.</span><span>Invite your team members to start sharing videos of games and practices.</span>",
+                    "INVITE_MEMBER": "Invite members",
+                    "TEAM_UPLOAD": "Upload a video"
+                },
+                "CREATE_TEAM": {
+                    "PLAN_TO_USE": "Plan",
+                    "CREATE_TEAM": "Create Team",
+                    "ACCOUNT": "Accounts",
+                    "PEOPLE_COUNTER": "",
+                    "SUPPORT_MEMBERS": "+ {{members}} Support accounts",
+                    "SUBTITLE": "This can be changed later"
+                },
+                "FORM_ERRORS": {
+                    "CompanyName": {
+                        "LengthValidator": "'Company Name' must be between 1 and 50 characters."
+                    },
+                    "ContactEmail": {
+                        "EmailValidator": "'Contact Email' is not a valid email address."
+                    },
+                    "MemberCount": {
+                        "GreaterThanOrEqualValidator": "'Member Count' must be greater than or equal to '10'."
+                    },
+                    "Plan": {
+                        "LengthValidator": "'Plan' must be between 1 and 50 characters."
+                    },
+                    "AdditionalAccounts": {
+                        "GreaterThanOrEqualValidator": "'Additional Accounts' must be greater than or equal to '0'."
+                    },
+                    "PhoneNumber": {
+                        "LengthValidator": "'Phone Number' must be between 4 and 32 characters."
+                    },
+                    "Country": {
+                        "ExactLengthValidator": "'Country' must be 2 characters in length."
+                    },
+                    "PostCode": {
+                        "NotNullValidator": "'Post Code' must not be empty."
+                    },
+                    "AddressLine1": {
+                        "LengthValidator": "'Address Line1' must be between 1 and 150 characters."
+                    },
+                    "INVALID_PHONE_NUMBER": "It can only contain digits and ()-+ characters"
+                },
+                "ERRORS": {
+                    "403": "You don't have authorization to perform this action",
+                    "409": "Your renewal application is being processed."
+                }
+            },
+            "CONFIRM_ACCOUNT": {
+                "ERRORS": {
+                    "BAD_CODE": "The code you entered is not correct",
+                    "NO_LONGER_VALID_CODE": "The activation code has expired. Please start the signup process again.",
+                    "ERROR_CONNECTION": "Unable to connect to server. Please check your internet connection and try again later.",
+                    "EMPTY": "Code is empty"
+                }
+            },
+            "SHORTCUTS": {
+                "KEYBOARD_SHORTCUTS": "Keyboard Shortcuts",
+                "VIDEO_PLAYER": "Video Player",
+                "SPACE": "Spacebar",
+                "NEXT_FRAME": "Next frame",
+                "PREV_FRAME": "Previous frame",
+                "SKIP5_FOWARD": "Forward 5 seconds",
+                "SKIP5_BACKWARD": "Backward 5 seconds",
+                "PLAY": "Play",
+                "PREV_TAG": "Previous tag",
+                "NEXT_TAG": "Next tag",
+                "SCALE_VIDEO_IN": "Zoom in",
+                "SCALE_VIDEO_OUT": "Zoom out",
+                "SCALE_VIDEO_RESET": "Restore zoom",
+                "MOUSE_WHEEL": "Mouse wheel"
+            },
+            "THREAD_SHARE_DIALOG": {
+                "INTRO": "Send the generated URL to the team you would like to share the video with. Once accepted changes to the original video will not be reflected in the copied video.",
+                "OPTIONS_TITLE": "Copy tags and annotations",
+                "AFTER_COPY_DIALOG_MESSAGE": "The url has been copied.",
+                "EMAIL_DIALOG_PROMPT": "E-mail address",
+                "EMAIL_SUBJECT": "[SPLYZA Teams] A video has been shared with you",
+                "EMAIL_BODY": "Click here to accept the video: {{link}}",
+                "SHARE_LINK": "Share link",
+                "MORE_INTRO": "",
+                "REFRESH": "Refresh",
+                "OR": "or",
+                "COPY_URL": "Copy url",
+                "SEND_EMAIL": "Send email",
+                "URL_USAGE": "URLs can only be used one time.",
+                "COPY_TAGS": "Copy",
+                "NOT_COPY_TAGS": "Don’t copy"
+            },
+            "LEAVE_TEAM": {
+                "BUTTON_LABEL": "Leave Team",
+                "CONFIRM_MESSAGE": "Are you sure you want to leave {{teamName}} This cannot be undone. If you wish to rejoin the team later you will need to contact the team administrator for an invitation.",
+                "REQUEST_ERROR": "There was a problem trying to Leave Team. Please try again later.",
+                "REQUEST_ERROR_ADMIN": "You cannot leave {{teamName}} because you are the team's administrator. If you would like to leave the team please contact support and request the team administrator be changed to another team member."
+            },
+            "ADD_TO_PLAYLIST": {
+                "TITLE": "Select playlist"
+            }
+        },
+        "SECTIONS": {
+            "SOCIAL_BUTTONS": {
+                "LOGIN_WITH_GOOGLE": "<span> Sign in with </span> <span class=\"text-bold\">Google</span>",
+                "LOGIN_WITH_LINE": "<span> Sign in with </span> <span class=\"text-bold\">LINE</span>",
+                "LOGIN_WITH_FACEBOOK": "<span> Sign in with </span> <span class=\"text-bold\">Facebook</span>",
+                "LOGIN_WITH_TWITTER": "<span> Sign in with </span> <span class=\"text-bold\">Twitter</span>",
+                "LOGIN_WITH_APPLE": "<span> Sign in with </span> <span class=\"text-bold\">Apple</span>",
+                "SIGNUP_WITH_GOOGLE": "<span> Sign up with </span> <span class=\"text-bold\">Google</span>",
+                "SIGNUP_WITH_LINE": "<span> Sign up with </span> <span class=\"text-bold\">LINE</span>",
+                "SIGNUP_WITH_FACEBOOK": "<span> Sign up with </span> <span class=\"text-bold\">Facebook</span>",
+                "SIGNUP_WITH_TWITTER": "<span> Sign up with </span> <span class=\"text-bold\">Twitter</span>",
+                "SIGNUP_WITH_APPLE": "<span> Sign up with </span> <span class=\"text-bold\">Apple</span>"
+            },
+            "SIGNUP_PANEL": {
+                "TITLE": "Create a SPLYZA Teams account",
+                "OR": "or",
+                "LOGGIN_ACCOUNT_WITH_BUTTON": "Sign in with {{name}}",
+                "CREATE_ACCOUNT": "Create account",
+                "CREATE_SPOCH_ACCOUNT": "Register with email address",
+                "BACK_TO_SOCIAL": "Register with an account of another service",
+                "PRYVACY_TESTAMENT": "By creating an account you are accepting SPLYZA's  <span  class=\"underlined-text-button privacy-button\">Privacy policy</span> and <span class=\"underlined-text-button terms-button\">terms of use </span> ",
+                "LOGIN_TESTAMENT": "If you already have an account <span  class=\"underlined-text-button go-to-login-button\">go to sign in</span>",
+                "FORGOT_MY_PASSWORD": "<span class=\"underlined-text-button\"  ng-click=\"$ctrl.onForgotPassword()\">Forgot my password</span>",
+                "EMAIL_ALREADY_EXISTS": "An account with this e-mail already exists. To link a social account, please sign in first and link it on your profile screen.",
+                "TEAM_CREATION_TOKEN_INVALID": "The team creation token is invalid or has expired. Please request a new one.",
+                "REGISTER_BUTTON": "Register",
+                "SIGNUP": "Sign up",
+                "OR_USE_EMAIL": "Register with email address",
+                "OR2": "or",
+                "ERRORS": {
+                    "USERNAME_EMPTY": "Please enter an username",
+                    "USERNAME_FORMAT": "username must have less than 50 characters",
+                    "EMAIL_EMPTY": "Please enter an email address",
+                    "EMAIL_FORMAT": "Please enter a valid email address",
+                    "PASSWORD_CANNOT_BE_EMPTY": "Please enter a password",
+                    "PASSWORD_FORMAT": "Password must have between 8 and 20 characters, containing at least 1 letter and 1 number"
+                }
+            },
+            "THREAD_SHARE_HANDLER": {
+                "NEED_LOGIN": "You need to be logged in.",
+                "LOGIN": "Sign In",
+                "ERROR_NOT_VALID_INVITATION": "This Share URL is no longer valid",
+                "CONTACT_ADMIN": "Please contact the sender to get a new share link.",
+                "CONTINUE": "Go to home",
+                "SHARE_CAPTION": "{{name}} has offered to share this video with you.",
+                "CHOOSE_TEAM": "Choose a team to receive the video",
+                "ACCEPT_SHARE": "Accept video",
+                "DECLINE_SHARE": "Decline",
+                "EXPIRED_TEAM_ERROR": "The video could not be accepted because the team has expired.",
+                "NOT_COACH": "You are not an administrator or coach of any teams.",
+                "NOT_COACH_ANYMORE": "You are no longer an administrator or coach of the selected team.",
+                "DESCRIPTION": "{{name}} has offered to share this video with you. Select the Team and the Room to save the video.",
+                "DESCRIPTION_ROOM": "{{name}} has offered to share this video with you. Select the Room to save the video.",
+                "TEAM": "Team",
+                "ROOM": "Room",
+                "NOT_VALLID_INVITATION_ERROR": {
+                    "INVALID_INVITATION": "Please contact the sharing Team to get a new URL.",
+                    "EXPIRED_INVITATION": "This share URL has expired. Please contact the sharing Team to get a new URL.",
+                    "USED_INVITATION": "This share URL has already been used. Please contact the sharing Team to get a new URL."
+                }
+            },
+            "TEAM_INVITE_HANDLER": {
+                "WAIT_MESSAGE": "Please wait while we verify your invitation",
+                "WELCOME_SPOCH": "Welcome to SPLYZA Teams",
+                "INVITATION": "Invitation",
+                "YOU_HAVE_BEEN_INVITED": "{{name}} has invited you  to join this team.",
+                "ENTER_TO_TEAM": "Join Team",
+                "NO_ENTER_TO_TEAM": " Decline invitation",
+                "NEED_LOGIN": "You need to be logged in.",
+                "NEED_LOGIN_PART2": "if first time please create an account.",
+                "LOGIN": "Sign In",
+                "HOME": "Home",
+                "CREATE_ACCOUNT": "Create an account",
+                "ERROR_ACCEPT_INVITE": "An internal error has occurred. Please send the invitation URL to support.teams@splyza.zendesk.com for investigation.",
+                "ERROR_NOT_VALID_INVITATION": "This invitation URL is no longer valid",
+                "NOT_VALLID_INVITATION_ERROR": {
+                    "INVALID_INVITATION": "Please contact the team administrator to get a new invitation.",
+                    "EXPIRED_INVITATION": "The invitation has expired, contact the team administrator to get a new invitation.",
+                    "USED_INVITATION": "This invitation has already been used. Please contact the team administrator to get a new invitation."
+                },
+                "ERROR": "Error",
+                "PROCESS_COMPLETE": "You are now a member of \"{{teamName}}\"",
+                "OPEN_ON_GOOGLE_PLAY": "Open on Google Play?"
+            },
+            "ORGANIZATION_INVITE_HANDLER": {
+                "WAIT_MESSAGE": "Please wait while we verify your invitation",
+                "WELCOME_SPOCH": "Welcome to SPLYZA Teams",
+                "INVITATION": "Invitation",
+                "YOU_HAVE_BEEN_INVITED": "{{name}} has invited your team to join this organization.",
+                "ACCEPT_INVITE": "Join organization",
+                "DECLINE_INVITE": " Decline invitation",
+                "NEED_LOGIN": "You need to be logged in",
+                "NEED_LOGIN_PART2": "if first time please create an account.",
+                "LOGIN": "Sign In",
+                "CREATE_ACCOUNT": "Create an account",
+                "ERROR_ACCEPT_INVITE": "An internal error has occurred. Please send the invitation URL to support.teams@splyza.zendesk.com for investigation.",
+                "ERROR_NOT_VALID_INVITATION": "This invitation URL is no longer valid",
+                "NOT_VALLID_INVITATION_ERROR": {
+                    "INVALID_INVITATION": "Please contact the team administrator to get a new invitation.",
+                    "EXPIRED_INVITATION": "The invitation has expired, contact the team administrator to get a new invitation."
+                },
+                "ERROR": "Error",
+                "PROCESS_COMPLETE": "Complete",
+                "SELECT_TEAM": "Please select your team",
+                "URL_VALID_ONE_WEEK": "URL is valid for 1 week"
+            },
+            "ORGANIZATION_VIDEO": {
+                "VIDEO_DELETE_FAIL_MSG": "There was a problem deleting the video. Please try again.",
+                "CONFIRM_DELETE": "Are you sure you want to delete this Item?"
+            },
+            "TEAM_LANDING": {
+                "LATEST_VIDEOS": "Latest videos"
+            },
+            "TEAM_COMMON": {
+                "TEAM_NAME": "Team name",
+                "TEAM_GOAL": "Goal",
+                "TEAM_GOAL_DATE": "Goal date",
+                "SAVE_TEAM_ERROR": "There was an error saving the team: {{moreInfo}} ",
+                "CREATE_TEAM": "Create Team",
+                "ERROR_UPDATE_USER_ROLE": "There was an issue updating user role",
+                "ERROR_DELETING_USER": "There was an issue removing user from team",
+                "USER_ALREADY_MEMBER_ALERT": "{{userName}} is already member of {{group}}",
+                "CANNOT_ADD_MEMBER_TO_GROUP": "An error occurred. Please try again.",
+                "CONFIRM_REMOVE_USER": "Are you sure you want to remove this user?",
+                "CREATE_GROUP_DIALOG": {
+                    "TITLE": "Create group",
+                    "MSG": "Please enter a group name:"
+                },
+                "DELETE_GROUP_DIALOG": {
+                    "TITLE": "Delete {{group}}",
+                    "MSG": "Are you sure you want to delete this group？"
+                },
+                "ERROR_OCCURRED": "An error occurred. Please check your details and try again.",
+                "GROUP_ALREADY_EXISTS": "A group with this name already exists.",
+                "TEAM_NOT_EXISTS_ERROR": "You dont have any team with this id: ",
+                "TAG_ALREADY_EXISTS": "A tag with this name already exists.",
+                "MANAGE_GROUP": "Manage groups",
+                "INVALID_CHARACTERS_ALERT_MSG": "cannot continue beacuse the text contains invalid characters",
+                "ERRORS": {
+                    "TEAM_NAME_EMPTY": "Please enter a team name",
+                    "ROOM_NAME_EMPTY": "Please enter a room name",
+                    "GOAL_DATE_NULL": "Goal date needs to have a goal",
+                    "GOAL_EMPTY": "Please enter a goal title",
+                    "DATE_MIN": "You cannot set a date earlier than today"
+                },
+                "EDIT_TEAM_INFO": "Edit info",
+                "FREE_ACCOUNT_ALERT": {
+                    "FREE_TRIAL": "Free trial",
+                    "DAYS_LEFT": "Expires in {{value}} days",
+                    "MINUTES_LEFT": "Expires in {{value}} minutes",
+                    "HOURS_LEFT": "Expires in {{value}} hours"
+                },
+                "ACCOUNT_EXPIRED_ALERT": "Account usage date has expired. Management / editing will be disabled until payment is completed。",
+                "TEAM_RENEWAL_ONLY_ADMIN_ALERT": "Only team administrators can submit a renewal request.",
+                "PLAYLIST": "Playlist"
+            },
+            "TEAM_CREATE_INVITE": {
+                "INVITE_MEMBER": "Invite",
+                "INVITE_ROLE": "Role",
+                "ROLE_CHANGE_DESCRIPTION": "You can change the members role later from the team members list",
+                "EMAIL_SUBJECT": "You've been invited to \"{{name}}\" on SPLYZA Teams",
+                "EMAIL_BODY": "Click here to join the team: {{link}}",
+                "MEMBER_COUNT": "Members: {{members}}",
+                "MEMBER_LIMIT": "Limit: {{max}}",
+                "EMPTY_MSG1": "This team has reached its limit of {{limit}} members.",
+                "EMPTY_MSG2": "Please contact us to increase the limit.",
+                "EMPTY_CONTACTUS": "Contact Us",
+                "SUPPORTER_COUNT": "Supporters: {{members}}",
+                "INCREASE_LIMIT_MESSAGE": "This team has reached its max limit.<br>Please contact us to increase the limit. <br><span class=\"key-message-a\">Contact Us</span>"
+            },
+            "TEAM_MEMBERS": {
+                "TEAM_GROUPS": "Team groups",
+                "ADD_GROUPS": "Add groups",
+                "GROUPS_AUTOCOMPLETE_PLACEHOLDER": "Type a group name",
+                "CANNOT_ADD_MEMBER_TO_GROUP": "An error occurred. Please try again.",
+                "REMOVE_FROM_ALL_GROUPS_OPTION": "Remove from all groups",
+                "CHANGE_OPTIONS_BUTTON": "Apply changes",
+                "SELECT_ALL_MEMBERS": "Select all members",
+                "EDIT_SELECTED_MEMBERS": "Edit selected members",
+                "MEMBERS_LIST": "Members list"
+            },
+            "VIDEO_COMMON": {
+                "PREPARING_VIDEO": "Preparing video ..",
+                "VIDEO_MENU": {
+                    "EDIT": "Tag/Annotate Video",
+                    "UPLOAD_TO_ROOM": "Copy to Room",
+                    "SHARE_THREAD": "Share",
+                    "SAVE_AS_COPY": "Save as copy",
+                    "DOWNLOAD": "Download Video File",
+                    "EXPORT_CSV_TAGS": "CSV",
+                    "EXPORT_CSV_EXCEL": "Excel",
+                    "EXPORT_TAGS": "Export Tags",
+                    "EDIT_PLAYLIST": "Edit Playlist"
+                },
+                "EDITING_VIDEO_TITLE": "{{title}} ・ Editing video",
+                "CALLOUT_PROMPT_TITLE": "Write here your comment",
+                "CALLOUT_PROMPT_BUTTON": "OK",
+                "VIDEO_SELECTOR": {
+                    "ADD_TIME_TAG": "Add Time Tag",
+                    "ADD_VIDEO_TAG": "Add Video Tag",
+                    "MEMBERS": "Members",
+                    "OTHERS": "Others",
+                    "TEAMS": "Teams",
+                    "ADD_GROUP": "Add new group",
+                    "RECENT_TAGS_TITLE": "recent used time tags",
+                    "TIME_TAGS_ADMIN": "Manage Tags"
+                },
+                "VIDEO_TAGS": "Video Tags",
+                "TIME_TAGS": "Time Tags",
+                "MESSAGES": {
+                    "VIDEO_TITLE_PROMPT": "Video title",
+                    "COMMON_OPERATION_NOTSUCCESS": "The process could not be completed.",
+                    "GO_BACK_CONFIRMATION": "You have unsaved changes. Are you sure you want to continue?",
+                    "WANT_TO_CONTINUE": "Do you want to continue?",
+                    "CONFLICT_ALERT_MSG": "Someone else already modifed this video. choose 'merge' to add your new annotations into the latest version of this video.",
+                    "CONFLICT": "Confirmation",
+                    "MERGE": "Merge",
+                    "SAVE_AS": "save as new",
+                    "TEAM_REMOVED_MESSAGE": "This team has been removed from your organization ",
+                    "MAIN_TEAM_REMOVED_MESSAGE": "This team has been moved to other organization",
+                    "NAVIGATE_AWAY_MSG": "This video has not been saved yet.",
+                    "NAVIGATE_AWAY_TITLE": "Do you want to end editing?",
+                    "EDIT_DRAFT_MSG": "There are unsaved changes for this video. Would you like to restore them?",
+                    "EDIT_DRAFT2_MSG": "There are unsaved changes. Would you like to restore them?<br><span style=\"font-size: 16px; \">Doing this will override your current work</span>",
+                    "EDIT_DRAFT_OK": "Restore",
+                    "EDIT_DRAFT_CANCEL": "Discard"
+                }
+            },
+            "THREAD": {
+                "THREAD_UPDATE_MSG": "Your changes have been saved.",
+                "THREAD_UPDATE_FAILURE": "There was a problem saving your changes. Please check your data and try again.",
+                "NEEDS_COMMENT_ERROR_MSG": "Needs to add a comment before posting.",
+                "POSTING_COMMENT_ERROR_MSG": "The comment could not be posted",
+                "DELETE_COMMENT_CONFIRM_MSG": "Are you sure you want to delete this comment?",
+                "READ": "Read",
+                "UNREAD": "Unread",
+                "MEMBERS": "Members",
+                "CONFIRM_THREAD_DELETE": "Are you sure you want to delete this Item?",
+                "THREAD_DELETE_FAIL_MSG": "There was a problem deleting the thread. Please try again.",
+                "COMMENT_WITH_VIDEO": "Video Comment",
+                "COMMENT_NO_VIDEO": "Comment",
+                "VIDEO_TAGS": "Video Tags",
+                "DELETE_TOPICS": "Delete video",
+                "POST_COMMENT": "Post comment",
+                "WRITE_A_COMMENT": "Write a comment",
+                "CONFIRM_PLAYLIST_DELETE": "Are you sure you want to delete this Playlist?",
+                "DELETE_PLAYLIST": "Delete"
+            },
+            "TEAM_ROOMS": {
+                "THREADS_BY_DATE": "Videos by recorded date",
+                "SEARCH_PLACEHOLDER": "Search by name",
+                "SEE_ALL_VIDEOS": "See all videos",
+                "SORT_BY_CREATED": "Creation Date",
+                "SORT_BY_NAME": "Name",
+                "SORT_BY": "Sort by"
+             },
+             "MY_PAGE": {
+                 "TAGGED_HEADING": "Videos featuring {{userName}}",
+                 "HEADING_LOGGED_USER": "Profile",
+                 "HEADING_OTHER_USER": "Profile",
+                 "NO_TAGGED": "No videos found. Tagged videos will appear here.",
+                 "LINKED_ACCOUNTS": "Manage linked accounts",
+                 "DELETE_ACCOUNT": "Delete account",
+                 "DELETE_ACCOUNT_CONFIRM": "Are you sure you want to delete your account? This action CANNOT be undone.",
+                 "DELETE_ACCOUNT_COMPLETE": "Account has been deleted.",
+                 "PROFILE_UPDATE_ERROR": "Unable to update profile.",
+                 "ADMINS_NO_DELETE_ERROR": "Users who are team administrators cannot be deleted."
+             },
+             "SOCIAL_LINKING": {
+                 "LINK": "Link",
+                 "UNLINK": "Unlink",
+                 "LINK_ERROR": "Unable to update profile.",
+                 "UNLINK_CONFIRM": "Are you sure you want to unlink your {{provider}} account?"
+             },
+            "TEAM_ROOM": {
+                "THREADS_BY_DATE": "Videos by date",
+                "SEARCH_BY_NAME": "Search by name",
+                "GROUP_NAME_MEMBERS": "{{name}} ({{members}} members)",
+                "GROUP_MEMBERS_COUNT": "({{members}} members)",
+                "GROUPS": "Groups",
+                "MEMBERS": "Members",
+                "ROOM_MEMBERS": "Room members",
+                "NAME_PLACEHOLDER": "Name",
+                "DESCRIPTION_PLACEHOLDER": "Description",
+                "COMMENT_PLACEHOLDER": "Comment",
+                "DELETE_ROOM": "Delete room",
+                "CONFIRM_DELETE_ROOM": "Are you sure you want to delete this room?"
+            },
+            "TEAM_VIDEO_UPLOAD": {
+                "TITLE": "Video Upload",
+                "YOU_HAVE_PENDING_UPLOADS_WARNING": "If you continue your pending uploads will be canceled.",
+                "NOT_ENOUGH_STORAGE_WARNING": "Your team does not have enough storage to upload videos. Please contact us if you wish to add more storage",
+                "NOT_ENOUGH_STORAGE_MULTIPLE_FILES_WARNING": "There is not enough storage available for upload all these files. If you want more storage contact us",
+                "ERROR_GETTING_VIDEO_INFO_WARNING": "There was an error trying to get the video info",
+                "HEADER": "Video upload",
+                "CAPTION": "",
+                "IN_PROGRESS": "Uploads in progress:",
+                "ADDED_FILES_SUBHEAD": "Added files",
+                "UPLOADING_SUBHEAD": "Uploading files",
+                "UPLOAD_COMPLETE_SUBHEAD": "Upload completed",
+                "UPLOAD_FAILED_SUBHEAD": "Upload failed",
+                "UPLOAD_PAUSED_SUBHEAD": "Upload paused",
+                "UPLOAD_ALL_BUTTON": "Upload All",
+                "CANCEL_BUTTON": "Cancel",
+                "UPLOAD_BUTTON": "Upload",
+                "TITLE_PROMPT": "Title",
+                "STATUS_UPLOADING": "Uploading...",
+                "STATUS_PROCESSING": "Processing...",
+                "STATUS_FAILED": "Failed",
+                "RETRY": "Retry",
+                "VIDEOS_SUPPORTED_MESSAGE": "All video formats are supported. If you have problems with the upload process, please contact us",
+                "NO_AVAILABLE_STORAGE": "Your team does not have enough storage to upload videos. Please contact us if you wish to add more storage",
+                "NO_AVAILABLE_STORAGE_READ_ONLY": "This team is current read only. To enable the team place contact your team administrator.",
+                "NO_AVAILABLE_STORAGE_READ_ONLY_ADMIN": "Your team's subscription has expired.\nThe team will be read only until the license is extended.",
+                "NO_AVAILABLE_STORAGE_READ_ONLY_ADMIN_BUTTON": "Extend Subscription",
+                "ABOUT_SPLYZA": "About SPLYZA",
+                "CONTACT": "Contact us",
+                "CREATE_ROOM": "Create New Room",
+                "NEXT_RENEWAL": "Next Renewal: {{date}}"
+            },
+            "ANALYSIS": {
+                "HEADER": "Analysis",
+                "SIDEBAR_HEADER": "Videos to analyse",
+                "ADD_TAG": "Add tag",
+                "VIDEO_NO_TAGS_MESSAGE": "The selected video does not have any tags.",
+                "ADD_VIDEO": "Add video",
+                "CLEAR_ALL": "Clear all",
+                "VIDEOS_FOR_ANALYSIS": "Videos to use for analysis",
+                "CLEAR_SELECTION": "Clear selection",
+                "ALL_ROOMS": "All rooms",
+                "SHOW_CHART": "Show charts",
+                "SELECTED_VIDEOS": "Selected videos",
+                "GROUP_CHART_TITLE": "Group '{{name}}' chart",
+                "DEFAULT_CHART_TITLE": "Group not set chart",
+                "USER_CHART_TITLE": "Members chart",
+                "TEAM_CHART_TITLE": "Teams chart",
+                "PREFIX_COSAS_COUNTER": "",
+                "RE_SELECT_VIDEOS": "select videos again",
+                "ADD_VIDEOS": "Add videos",
+                "GO_TO_ANALYSIS_VIEW": "back to Analysis",
+                "SHOW_PLAYBACK_LIST": "Show playback list",
+                "SELECTED_TAGS": "selected tags"
+            },
+            "ORGANIZATION_TEAMS": {
+                "CONFIRM_REMOVE_TEAM": "Are you sure you want to remove this team?",
+                "EDIT_INFO": "Edit info",
+                "REMOVE_TEAM": "Remove",
+                "INFO_PROMPT": "Edit team info",
+                "INFO_IDENTIFIER": "Identifier",
+                "INFO_SAVE_BUTTON": "Save changes"
+            },
+            "ORGANIZATION_CREATE_INVITE": {
+                "EMAIL_SUBJECT": "You have been invited to add your team to \"{{name}}\"",
+                "EMAIL_BODY": "Click here to join the organization: {{link}}"
+            },
+            "TEAM_EMPTY": {
+                "NOT_PERMISSIONS_CREATE_TEAM": "Click \"Apply for Team\" to get started using SPLYZA Teams.",
+                "NOT_TEAM_MESSAGE": "If you are a student or member of an existing team,",
+                "NO_MEMBERS_MESSAGE": "contact your team administrator or coach to get an invitation.",
+                "NOT_TEAM_MESSAGE_2": "You are not a member of any teams yet.",
+                "NO_MEMBERS_MESSAGE_2": "Create a team, and then invite some members.",
+                "CREATE_REQUEST_TEAM": "Apply for Team",
+                "CREATE_TEAM": "Create Team"
+            },
+            "FORGOT_PW": {
+                "TITLE": "Did you forget your password？",
+                "SUBTITLE1": "we are going to send you an email",
+                "SUBTITLE2": "to the email address that you provide us bellow",
+                "SEND_BUTTON": "Reset password",
+                "BACK_TO_LOGIN_BUTTON": "Back",
+                "EMAIL": "E-mail address",
+                "SEND_RESET_BUTTON": "Send reset link",
+                "REQUEST_FAILED": "There was a problem. Please check your details and try again.",
+                "EMAIL_SENT": "A password reset link has been e-mailed to you."
+            },
+            "FORGOT_PW_HANDLER": {
+                "HEADER": "Reset Password",
+                "PASSWORD_NOT_ENTERED": "Please enter a new password.",
+                "PASSWORD": "Enter new password",
+                "PASSWORD_CONFIRM_NOT_MATCH": "The confirmation does not match.",
+                "PASSWORD_CONFIRM": "Confirm Password",
+                "CHANGE_PASSWORD_BUTTON": "Change password",
+                "CHANGE_FAILED": "There was a problem resetting your password. Please check your details and try again."
+            },
+            "ORGANIZATION_CSV_IMPORT": {
+                "HEADER": "CSV import",
+                "UPLOADING": "Uploading...",
+                "PROCESSING": "Processing...",
+                "CANCEL_BUTTON": "Cancel",
+                "OFFSET_SECONDS": "Offset (seconds)",
+                "START_UPLOAD_BUTTON": "Upload",
+                "ERROR": "An error occurred. Please check your CSV file and try again.",
+                "WARNING": "The file was imported with some warnings.",
+                "FILE_UPLOAD_FAILED": "File upload failed",
+                "FILTERS_HEADER": "Filters",
+                "CLEAR_ANNOTATIONS_CHECKBOX": "Clear existing annotations",
+                "UNABLE_TO_IMPORT_CONFIG": "unable to load csv import config"
+            },
+            "ORGANIZATION_VIDEO_DISTRIBUTION": {
+                "HEADER": "Video distribution",
+                "DISTRIBUTE_TO": "Select teams to distribute this video to:",
+                "DISTRIBUTE_TO_ROOM_PROMPT": "Create a post for the video in: ",
+                "ENTER_ROOM_NAME_PROMPT": "Type a room name here",
+                "HISTORY": "History",
+                "ROOM": "Room",
+                "PROCESSING": "Processing",
+                "DISTRIBUTED_DATE": "Distributed",
+                "DISTRIBUTED_BY": "Distributed by",
+                "STATUS": "Status",
+                "DISTRIBUTE_BUTTON": "Distribute",
+                "DISTRIBUTION_SCHEDULED": "This video will be distributed to the selected teams shortly.",
+                "DISTRIBUTE_CONFIRM": "Are you sure you want to distribute this video to {{count}} teams?",
+                "ERROR": "Error",
+                "ERROR_DISTRIBUTE_VIDEO": "An error occurred. Please try again."
+            },
+            "ORGANIZATION_VIDEOS": {
+                "SEARCH": "Search",
+                "KEYWORDS": "Keywords"
+            },
+            "TEAM_MEMBER_INFO_EDIT": {
+                "HEADER": "Edit member info",
+                "MEMBER_NUMBER": "Member number",
+                "SAVE_BUTTON": "Save changes"
+            },
+            "CONFIRM_ACCOUNT": {
+                "ACCOUNT_AUTHENTICATION": "Account authentication",
+                "CODE_EXPLANATION": "Please enter the 4 digit verification number sent to your email below",
+                "LOGIN": "Sign In",
+                "MAIL": "Email： {{mail}}",
+                "IF_ERROR_MSG": "※ If your email address is incorrect, please register your account again",
+                "NOT_EMAIL_ERROR_MSG": "※ This page is not longer valid, please register your account again",
+                "TO_SIGNUP": "go to signup"
+            },
+            "USAGE_REQUEST": {
+                "FORM_ERRORS": {
+                    "FILL_RED_FIELDS": "You have to fill all the fields marked in red",
+                    "PEOPLE_COUNT_ONLY_NUMBER": "Number of people only accepts numbers",
+                    "NEED_PLAN": "You need to select a plan",
+                    "PHONE_BAD_FORMAT": "phone number must have at least 4 digits",
+                    "REASON_EMPTY": "you need to select at least one reason for using splyza teams",
+                    "OPINION_EMPTY": "you need select an option on 'how did you find splyza' ",
+                    "ADDITIONAL_ACCOUNTS_NUMBER": "additional accounts only accepts numbers",
+                    "SUPPORT_ACCOUNTS_NUMBER": "Support accounts only accepts numbers",
+                    "FIELD_NOT_ENTERED": "It is not entered",
+                    "BAD_EMAIL": "email is not valid",
+                    "SELECT_ATLEAST_ONE": "Select at least one",
+                    "MEMBER_MIN": "'Member Count' must be greater than or equal to '10'.",
+                    "INVALID_PHONE_NUMBER": "phone number must only contains digits and ()-+ characters"
+                }
+            },
+            "PLAYLIST_CREATE": {
+                "HEADER": {
+                    "TITLE": "Create Playlist"
+                },
+                "FORM": {
+                    "TITLE": "Title",
+                    "DESCRIPTION": "Description",
+                    "ROOM_LABEL": "Room",
+                    "ERRORS": {
+                        "ENTER_PLEASE": "Please enter this field",
+                        "TITLE_EMPTY": "Please enter a playlist title"
+                    }
+                }
+            },
+            "ADD_TO_PLAYLIST": {
+                "SAVED_SUCCESS": "Succesfully added to {{name}} playlist",
+                "SAVED_ERROR": "Could not be added to {{name}} playlist"
+            },
+            "PLAYLIST_DETAIL": {
+                "ITEMS_COUNTER": "{{count}} Videos",
+                "SELECTED_TAGS": "{{count}} tag(s) selected",
+                "CLEAR": "Clear"
+            },
+            "PLAYLIST_EDIT": {
+                "TITLE": "Edit Playlist({{count}})"
+            }
+        }
+    },
+    "COUNTRIES": {
+        "JP": "Japan"
+    }
+}

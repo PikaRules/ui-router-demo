@@ -1,0 +1,10 @@
+
+
+.sp-opacity-transition {
+    opacity: 0;
+}
+.sp-opacity-transition-in {
+    opacity: 1;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+}

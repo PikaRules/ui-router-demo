@@ -1,0 +1,122 @@
+
+@import './config';
+@import './padding';
+@import './form';
+@import './button';
+@import './menu';
+@import './image';
+@import './tabs';
+@import './toast';
+@import './date-picker';
+@import './team-landing';
+@import './search-input';
+@import './chips';
+@import './video';
+@import './overlays';
+@import './overflowed-gradient';
+@import './video-dialog';
+@import './annotation-list';
+@import './progress-bar';
+@import './thread-card';
+@import './circular-spinner';
+@import './load-more';
+@import './general-transitions';
+@import './tooltip';
+@import './custom-scrollbar';
+@import './video-spinner';
+@import './disable-material-animations';
+@import './custom-flex';
+@import './dialog';
+@import './mat-general-overrides';
+@import './custom-mat-menu';
+@import './social-buttons';
+@import './mat-select';
+@import './team-empty-left-menu';
+@import './usage-request';
+
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    font-family: $font-stack;
+    font-size: $primary-font-size;
+    color: $primary-font-color;
+    margin: 0;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@mixin socialColor($background, $foreground: #fff) {
+    background-color: $background;
+    color: $foreground;
+    border: 0px;
+    font-size: 18px;
+}
+
+.facebook-color {
+    @include socialColor(#3C5A99);
+}
+
+.twitter-color {
+    @include socialColor(#1DA1F2);
+}
+
+.google-color {
+    @include socialColor(#CC3732);
+}
+
+.line-color {
+    @include socialColor(#00b900);
+}
+
+.ellipsis {
+    text-overflow: ellipsis; overflow: hidden; white-space: nowrap;
+}
+
+.no-underlined {
+    text-decoration: inherit;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.component-host {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column !important;
+}
+
+.layout-row {
+    flex-direction: row !important;
+}
+
+.layout-column {
+    flex-direction: column !important;
+}
+
+/*
+.flex-none {
+    flex: 1 1 auto !important;
+}*/
+
+.no-text-selection {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+.underlined-text-button {
+    text-decoration: underline; cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.default-custom-dialog .mat-dialog-container {
+    padding: 0;
+    min-width: 200px;
+    min-height: 150px;
+    position: relative;
+    display: flex;
+}
+
+.default-custom-dialog.annotation-callout .mat-dialog-container {
+    padding: 0;
+    min-width: 400px;
+    min-height: 32px;
+    position: relative;
+    display: flex;
+}
+
+.video-tag-selector-custom-dialog .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+}
+
+
+.tag-management-custom-dialog .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+    height: inherit;
+}
+
+.unread-team-members-custom-dialog .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+    height: inherit;
+}
+
+.video-player-dialog .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+    height: inherit;
+}
+
+.custom-dialog-panel-default1  .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+}
+
+.custom-dialog-panel-default2  .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+    height: inherit;
+}
+
+.playlist-create-custom-dialog .mat-dialog-container {
+    padding: 0;
+    position: relative;
+    display: flex;
+}

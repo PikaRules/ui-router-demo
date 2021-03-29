@@ -1,0 +1,68 @@
+
+.plain-black-tabs {
+    .md-button.md-accent {
+        color: #0F0C31;
+        font-size: 16px;
+        font-family: $font-stack;
+    }
+
+    .md-button._md-nav-button.md-unselected {
+        color: #0F0C31;
+        font-size: 16px;
+        font-family: $font-stack;
+    }
+    .md-nav-bar {
+        border-bottom: 0px;
+    }
+}
+
+md-nav-bar.plain-black-tabs.md-default-theme md-nav-ink-bar, md-nav-bar.plain-black-tabs md-nav-ink-bar {
+    background: black ;
+    height: 4px;
+    bottom: -1px;
+}
+
+md-tabs.plain-black-tabs {
+    md-tabs-wrapper {
+        top: 1px;
+    }
+    .md-tab {
+        color: #0F0C31;
+        font-size: 14px;
+    }
+    .md-tab .md-active {
+        color: #0F0C31;
+        font-size: 14px;
+    }
+
+    md-ink-bar {
+        color: #0F0C31;
+        background-color:#0F0C31;
+        height: 2px;
+    }
+}
+
+md-tabs.plain-black-tabs.md-default-theme .md-tab .md-ripple-container,
+md-tabs.plain-black-tabs .md-tab .md-ripple-container {
+    color: lightgray;
+}
+
+/**/
+
+.plain-black-tabs {
+    .mat-tab-label {
+        color: #0F0C31;
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    .mat-tab-header {
+        border-bottom: inherit;
+        height: 100%;
+    }
+
+    &.mat-tab-group.mat-primary .mat-ink-bar {
+        background-color: #0F0C31;
+    }
+}
+

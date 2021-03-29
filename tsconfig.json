@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "module": "es2020",
+        "lib": ["es2015", "es2017", "es2020", "dom"],
+        "target": "es5",
+        "sourceMap": true,
+        "removeComments": true,
+        "allowUnusedLabels": false,
+        "noImplicitReturns": true,
+        "noImplicitUseStrict": true,
+        "alwaysStrict": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "moduleResolution": "node",
+        "outDir": "./out-tsc/app",
+        "jsx": "react",
+        "allowJs": true,
+        "types": ["node", "underscore"],
+        "typeRoots": ["./node_modules/@types"],
+        "baseUrl": ".",
+        "paths": {
+            "konvaCustom": ["./vendor/konva/konva.d.ts"],
+            "environment": ["./environments/environment.d.ts"],
+            "identicon": ["./vendor/identicon/identicon.d.ts"],
+        }
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "forkChecker": true,
+        "useWebpackText": true
+    },
+    "files": [
+        "./src/main.aot.ts"
+    ],
+    "exclude": [
+        "./node_modules",
+        "./out-tsc/app"
+    ],
+    "angularCompilerOptions": {
+        "skipMetadataEmit" : true
+    }
+}

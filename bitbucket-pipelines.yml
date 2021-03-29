@@ -1,0 +1,127 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+#   sandbox-release -> http://d2440inipyncdh.cloudfront.net/
+#   production test -> https://dzlqln5janvkh.cloudfront.net
+#   production release ->  https://d2r2jo6w5qm63q.cloudfront.net | https://beta.teams.splyza.com
+# ----
+# You can specify a custom docker image from Docker Hub as your build environment.
+# image: splyza/atlassian_node_aws:latest
+# image: atlassian/default-image:2
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script: # Modify the commands below to build your repository.
+          - npm install
+          - npm test
+
+pipelines:
+  branches:
+    deploy/s3/sandbox-test:
+      - step:
+          image: node:10.16.0-jessie
+          caches:
+            - node
+          script:
+            - npm --version
+            - node --version
+            - npm install
+            - npm run build:sand
+          artifacts:
+            - dist/**
+      - step:
+          image: python:3.6.8-alpine3.9
+          script:
+            - pip install awscli
+            - PATH=$PATH:/root/.local/bin/aws
+            - aws configure set preview.cloudfront true
+            - aws s3 sync dist s3://splyza-teams-site/sandbox-test --delete --acl public-read
+            - aws cloudfront create-invalidation --distribution-id E1XAHBNAS0GFZH --paths "/*"
+
+    deploy/s3/sandbox-release:
+      - step:
+          image: node:10.16.0-jessie
+          caches:
+            - node
+          script:
+            - npm --version
+            - node --version
+            - npm install
+            - npm run build:sand:min
+          artifacts:
+            - dist/**
+      - step:
+          image: python:3.6.8-alpine3.9
+          script:
+            - pip install awscli
+            - PATH=$PATH:/root/.local/bin/aws
+            - aws configure set preview.cloudfront true
+            - aws s3 sync dist s3://splyza-teams-site/sandbox-release --delete --acl public-read
+            - aws cloudfront create-invalidation --distribution-id E29GSNXM71MB41 --paths "/*"
+
+    deploy/s3/production-test:
+      - step:
+          image: node:10.16.0-jessie
+          caches:
+            - node
+          script:
+            - npm --version
+            - node --version
+            - npm install
+            - npm run build:prod
+          artifacts:
+            - dist/**
+      - step:
+          image: python:3.6.8-alpine3.9
+          script:
+            - pip install awscli
+            - PATH=$PATH:/root/.local/bin/aws
+            - aws configure set preview.cloudfront true
+            - aws s3 sync dist s3://splyza-teams-site/production-test --delete --acl public-read
+            - aws cloudfront create-invalidation --distribution-id E3MH6U5A812AZY --paths "/*"
+
+    deploy/s3/production-release:
+      - step:
+          image: node:10.16.0-jessie
+          caches:
+            - node
+          script:
+            - npm --version
+            - node --version
+            - npm install
+            - npm run build:prod
+          artifacts:
+            - dist/**
+      - step:
+          image: python:3.6.8-alpine3.9
+          script:
+            - pip install awscli
+            - PATH=$PATH:/root/.local/bin/aws
+            - aws configure set preview.cloudfront true
+            - aws s3 sync dist s3://splyza-teams-site/production-release --delete --acl public-read
+            - aws cloudfront create-invalidation --distribution-id E157QRWLYWPP1V --paths "/*"
+
+    deploy/s3/performance-fix:
+      - step:
+          image: node:10.16.0-jessie
+          caches:
+            - node
+          script:
+            - npm --version
+            - node --version
+            - npm install
+            - npm run build:prod:debug
+          artifacts:
+            - dist/**
+      - step:
+          image: python:3.6.8-alpine3.9
+          script:
+            - pip install awscli
+            - PATH=$PATH:/root/.local/bin/aws
+            - aws configure set preview.cloudfront true
+            - aws s3 sync dist s3://splyza-teams-site/production-release --delete --acl public-read
+            - aws cloudfront create-invalidation --distribution-id E157QRWLYWPP1V --paths "/*"

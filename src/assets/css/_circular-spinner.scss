@@ -1,0 +1,31 @@
+
+
+circular-spinner-component {
+
+    .content {
+        opacity: 0;
+        height: 0;
+    }
+
+    .content.transition-in {
+        opacity: 1;
+        height: inherit;
+        -webkit-transition: opacity 300ms, height 300ms;
+        transition: opacity 300ms, height 300ms;
+    }
+}
+
+circular-spinner-mask-component {
+
+    .content {
+        opacity: 0;
+        z-index: 11;
+    }
+
+    .content.transition-in {
+        opacity: 1;
+        height: inherit;
+        -webkit-transition: opacity 300ms;
+        transition: opacity 300ms;
+    }
+}

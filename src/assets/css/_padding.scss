@@ -1,0 +1,26 @@
+
+/**
+ * general horizontal padding
+*/
+
+$i: 20;
+@while $i > 0 {
+  .padding-h-#{$i} {
+      padding-right: #{$i}px;
+      padding-left: #{$i}px;
+    }
+  $i: $i - 1;
+}
+
+/**
+ * general vertical padding
+*/
+
+$i: 20;
+@while $i > 0 {
+  .padding-v-#{$i} {
+      padding-top: #{$i}px;
+      padding-bottom: #{$i}px;
+    }
+  $i: $i - 1;
+}

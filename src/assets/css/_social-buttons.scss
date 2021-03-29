@@ -1,0 +1,391 @@
+
+
+// ===== google =======
+
+.google-btn {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(169, 169, 169);
+    color: rgb(65, 65, 65);
+
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0;
+    padding-right: 24px;
+
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.google-btn .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.google-btn:hover {
+    box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+
+.google-btn .gicon {
+    width: 48px;
+    height: 48px;
+    border-radius: 1px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+}
+
+.google-btn img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.google-btn .wrapper .title {
+    font-size: 16px;
+    line-height: 50px;
+    font-family: Roboto,arial,sans-serif;
+    letter-spacing: .21px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+
+.google-btn .text-bold {
+    font-weight: inherit;
+}
+
+// ======== line =========
+
+.line-btn {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(1, 185, 34);
+    border: 0px solid transparent;
+    color: #fff;
+
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0;
+    padding-right: 28px;
+
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.line-btn .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.line-btn:hover {
+    background-color: #00E000;
+}
+
+.line-btn:active {
+    background-color: #00B300;
+}
+
+.line-btn .gicon {
+    width: 48px;
+    height: 100%;
+    border-radius: 1px;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 8px;
+}
+
+.line-btn img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.line-btn .wrapper .title {
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: .21px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    position: relative;
+}
+
+.line-btn:hover {
+    box-shadow: 0 0 3px 3px rgba(32, 64, 117, 0.1);
+}
+
+.line-btn .text-bold {
+    font-weight: inherit;
+}
+
+// ======== facebook =========
+
+.face-btn {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(24, 119, 242);
+    border: 0px solid transparent;
+    color: #fff;
+
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0;
+    padding-right: 28px;
+
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.face-btn .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.face-btn:hover {
+    box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+
+.face-btn .gicon {
+    width: 48px;
+    height: 100%;
+    border-radius: 1px;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 8px;
+}
+
+.face-btn img {
+    width: 26px;
+    height: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.face-btn .wrapper .title {
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: .25px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    font: Helvetica, Arial, sans-serif;
+    position: relative;
+}
+
+.face-btn .text-bold {
+    font-weight: inherit;
+}
+
+// ======== twitter =========
+
+.twitter-btn {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(29, 161, 242);
+    border: 0px solid transparent;
+    color: #fff;
+
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0;
+    padding-right: 28px;
+
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.twitter-btn .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.twitter-btn:hover {
+    background-color: rgb(0, 96, 208);
+}
+
+.twitter-btn .gicon {
+    width: 48px;
+    height: 100%;
+    border-radius: 1px;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 8px;
+}
+
+.twitter-btn img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.twitter-btn .wrapper .title {
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: .21px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    position: relative;
+}
+
+.twitter-btn:hover {
+    box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+
+.twitter-btn .text-bold {
+    font-weight: inherit;
+}
+
+// ======== apple =========
+
+.apple-btn {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: 0px solid transparent;
+    color: #fff;
+
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0;
+    padding-right: 28px;
+
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.apple-btn .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.apple-btn:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.apple-btn .gicon {
+    width: 48px;
+    height: 100%;
+    border-radius: 1px;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 8px;
+}
+
+.apple-btn img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.apple-btn .wrapper .title {
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: .21px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    position: relative;
+}
+
+.apple-btn:hover {
+    box-shadow: 0 0 3px 3px rgba(80,80,80,.3);
+}
+
+.apple-btn .text-bold {
+    font-weight: inherit;
+}
+
+// ======== spoch =======
+
+.login-btn {
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.login-btn:hover {
+    box-shadow: 0 0 7px 3px rgba(66,133,244, 0.3);
+}
+
+.signup-btn {
+    transition: background-color .218s,border-color .218s,box-shadow .218s;
+}
+
+.signup-btn:hover {
+    box-shadow: 0 0 7px 3px rgba(66,133,244, 0.3);
+}
+
+/*
+
+.apple-btn span {
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: .21px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    position: relative;
+    left: -6px;
+}
+
+.apple-btn span.text-bold {
+    font-weight: bold;
+}
+*/

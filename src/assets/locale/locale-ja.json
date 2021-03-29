@@ -1,0 +1,1272 @@
+{
+    "SPOCH": {
+        "SHARED": {
+            "DIALOG": {
+                "OK": "OK",
+                "DELETE": "削除する",
+                "CANCEL": "キャンセル"
+            },
+            "ROLES": {
+                "ADMINISTRATOR": "管理者",
+                "MEMBER": "プレイヤー",
+                "EDITOR": "プレイヤーコーチ",
+                "READ_ONLY": "サポーター",
+                "MEMBERS": "プレイヤー",
+                "EDITORS": "プレイヤーコーチ",
+                "READ_ONLY_USERS": "サポーター",
+                "ROLES_CAPTION": "権限",
+                "MANAGER": "コーチ",
+                "MANAGERS": "コーチ"
+            },
+            "FORM": {
+                "USERNAME": "名前",
+                "PASSWORD": "パスワード",
+                "EMAIL": "メールアドレス",
+                "SELECT_ALL": "全て選択",
+                "DESELECT_ALL": "全て解除",
+                "SINGUP_USERNAME": "名前（登録後に変更可能）",
+                "SINGUP_FULLNAME": "フルネーム（登録後に変更可能）"
+            },
+            "HEADER": {
+                "LANGUAGE": "言語"
+            },
+            "RELATIVE_DATE": {
+                "TODAY": "今日",
+                "YESTERDAY": "昨日",
+                "DAYS_REMAINING": "&nbsp;日",
+                "REMAINING_DATE": "&nbsp;まであと&nbsp;"
+            },
+            "MISC": {
+                "ANNOTATION": "注記",
+                "CREATE_TEAM_NO_PERMISSION": "チーム作成の権限がありません。チーム管理者から招待を受けてください。<br> チームを作成したい場合はチーム利用申請ページからお問い合わせください。<br> <a class='sp-button primary no-underlined'  href='http://products.splyza.com/teams/trial/'>チーム利用申請ページを開く</a>",
+                "CREATE_TEAM_AT_LIMIT": "このアカウントで作成できるのは{{max}}チームまでです",
+                "ROOM": "ルーム",
+                "TEAM_MEMBERS": "チームメンバー",
+                "UPLOAD_VIDEO": "動画をアップロード",
+                "TEAM_NOTIFICATIONS": "チーム通知",
+                "ORGANIZATION_NOTIFICATIONS": "Organizationsの通知",
+                "UPLOAD_STATE": "アップロード状況",
+                "LOGIN": "サインイン",
+                "THERE_IS_NEW_VERSION": "SPLYZA Teamsの新しいバージョンがあります",
+                "REFRESH_PAGE": "ページを更新",
+                "EDIT_TEAM": "チームを編集",
+                "SAVE_CHANGES": "変更内容を保存する",
+                "SAVE": "保存する",
+                "ERROR_OCCURRED_DETAILS": "エラーが発生しました。再実行してください",
+                "ERROR_OCCURRED": "エラーが発生しました。",
+                "UNEXPECTED_ERROR_OCCURRED": "予期しないエラーが発生しました.",
+                "ERROR": "エラー",
+                "SEARCH_BY_NAME": "名前で検索",
+                "GROUP": "グループ",
+                "ROLE": "チームの役割",
+                "DELETE": "削除",
+                "EDIT": "編集",
+                "CANCEL": "キャンセル",
+                "DONE": "完了",
+                "SAVE_SHORT": "保存",
+                "CREATE": "作成",
+                "ADD": "追加",
+                "CREATE_TAG_GROUP": "タググループを作成",
+                "CREATE_TEAM_GROUP": "グループを作成",
+                "ADD_TAG": "タグを追加",
+                "GROUP_NAME": "タググループ名",
+                "TAG_NAME": "タグ名",
+                "CLOSE": "閉じる",
+                "ROOM_SINGLE": "ルーム",
+                "POST": "投稿",
+                "SEND": "送信",
+                "TITLE": "タイトル",
+                "COMMENT": "コメント",
+                "COMMENTS": "コメント",
+                "EDIT_DONE": "編集を終了",
+                "SEARCH_PLACEHOLDER": "検索",
+                "LOAD_MORE_ITEMS": "前{{count}}の件を表示",
+                "LOAD_MORE_BUTTON": "もっと読み込む",
+                "WELCOME_TO_SPOCH": "ようこそSPLYZA Teamsへ",
+                "LOADING": "読み込み中..",
+                "COMMON_OPERATION_NOTSUCCESS": "操作は正常に完了することができませんでした",
+                "VIDEO": "動画",
+                "PLAY_FROM_TIME": "{{time}}から再生",
+                "LOGIN_FAIL": "問題が発生しました。アカウント情報が間違っている可能性があります。",
+                "STORAGE_STATS_ERROR": "読み込みが失敗しました",
+                "VIDEO_NOT_FOUND": "動画が見つかりません",
+                "CONFIRM_DELETE": "削除しますか",
+                "CONFIRM_DELETE_PROPS": "「{{text}}」を削除しますか",
+                "DELETE_GROUP": "タググループを削除",
+                "NO_SUPPORTED_BROWSER_MSG": "お使いのブラウザはサポートされていません。 <br> サポートブラウザは、最新のChrome のみとなっております。<br> ",
+                "DOWNLOAD_CROME_LINK": "最新のChromeは以下のリンクからダウンロードできます。 <br> <a href='https://www.google.co.jp/chrome/browser/desktop/'>Chromeをダウンロード</a> ",
+                "NAVIGATE_AWAY": "この画面を離れてよいですか？　保存されない変更は破棄されます。",
+                "NO_SUPPORTED_DOWNLOAD_APP_IPHONE": "iPhone用SPLYZA Teamsをダウンロード",
+                "NO_SUPPORTED_DOWNLOAD_APP_IPAD": "iPad用SPLYZA Teamsをダウンロード",
+                "NO_SUPPORTED_DOWNLOAD_APP_ANDROID": "Android用SPLYZA Teamsをダウンロード",
+                "GET_BETTER_EXPERIENCE_WITH_APP": "アプリをダウンロードしていただくとより快適にご利用いただけます",
+                "ROOM_AUTHOR": "ルーム作成者",
+                "VIEW_PROFILE": "プロフィール",
+                "GROUPS": "グループ",
+                "MEMBERS": "メンバー",
+                "ERROR_DETAILS": "エラーの詳細",
+                "PASSWORD_RULES": "パスワードは８文字以上２０文字以下で、数字と英字の両方を含める必要があります。",
+                "END_MODAL": "終了する",
+                "ERROR_CONNECTION": "サーバーに接続できません。 インターネット接続を確認後、再試行してください。",
+                "THREAD_DETAILS": "詳細",
+                "ORGANIZATION_LIST_0": "表示される情報がありません",
+                "NOT_FOUND": "見つかりません",
+                "SELECT_ONE_GROUP": "グループ",
+                "SELECT_ONE_ROLE": "チームの役割",
+                "CSV_DOWNLOAD": "csvをダウンロード",
+                "TEAMS": "チーム",
+                "DEFAULT": "グループ未設定",
+                "COLLAPSE_ALL": "すべて閉じる",
+                "EXPAND_ALL": "すべて開く",
+                "SAVE_OR_RESTORE": "一時的に端末に保存しますか？",
+                "REQUIRED": "必須",
+                "TIME": "時間",
+                "FREE": "無料",
+                "SELECT_RIGHT_PICTURE_FORMAT": "画像ファイルはJPEGまたはPNGを指定してください。",
+                "CANNOT_OPEN_EMAIL_CLIENT": "メールクライアントが見つからなかったため、メールを送信できません。",
+                "OPEN": "開く",
+                "OPEN_APP": "SPLYZA Teams アプリを開く",
+                "DRAFT": "下書きあり",
+                "TEAM_ICON": "チームアイコン",
+                "UNDO": "元に戻す",
+                "REDO": "やり直す",
+                "VIDEO_NO_AVAILABLE": "動画は存在しません.",
+                "NOT_SHOW_AGAIN": "今後表示しない"
+            },
+            "UPLOAD": {
+                "DROP_PROMPT1": "ここにファイルをドロップ",
+                "DROP_PROMPT2": "またはファイル選択",
+                "SELECT_FILE": "ファイル選択",
+                "ERRORS": {
+                    "403": "アップロードの権限がありません",
+                    "400": "エラーが発生しました (10)",
+                    "404": "エラーが発生しました (10.4)",
+                    "HEADER_MISSING": "エラーが発生しました. (12)",
+                    "NOT_ALL_CHUNKS_UPLOADED": "エラーが発生しました. (11)",
+                    "FAILED_CUS_NETWORK_ISSUE_TRY_AGAIN": "ネットワークエラーのためアップロードに失敗しました。接続を確認して、もう一度お試しください",
+                    "CODE_ERROR": "エラーが発生しました (15)",
+                    "CONVERSION_PROCESS_STATUS_ERROR": "動画を変換に失敗しました. (16)",
+                    "CONVERSION_PROCESS_INVALID_PROGRESS": "動画を変換に失敗しました. (17)"
+                },
+                "FORMAT_ERRORS": {
+                    "FILE_NAME": "ファイル名は1～256文字で入力してください",
+                    "UPLOAD_TITLE": "タイトルは1～1,000文字で入力してください",
+                    "FILE_SIZE": "サイズが０バイトのファイルはアップロードできません",
+                    "UPLOAD_DESCRIPTION": "コメントは10,000文字以下で入力してください",
+                    "RECORDED_DATE": "撮影日は、1900/1/1以降を指定してください"
+                },
+                "SERVER_ERRORS": {
+                    "INVALID_ROOM_OWNER":  "エラーが発生しました (21)",
+                    "NOT_ENOUGH_STORAGE":  "ストレージの容量が足りません",
+                    "NO_CHUNKS_INFO":  "エラーが発生しました (22)",
+                    "INVALID_UPLOAD_OWNER":  "エラーが発生しました (23)",
+                    "UNAUTHORIZED_TAGS":  "エラーが発生しました (24)",
+                    "UPLOAD_ALREADY_PROCESSED":  "エラーが発生しました (25)",
+                    "INVALID_VIDEO": "ファイルが有効な動画ファイルではない可能性があります。",
+                    "MERGE_RESOLUTION_MISMATCH": "結合する場合は同じ解像度の動画を選択してください"
+                }
+            },
+            "AUTOANALYZER": {
+                "ANALYZE_FAILED": "<div style='margin: 6px; font-size: 14px; color: #414141;'><p>自動分析できませんでした。<br><br>  次の条件を満たす動画で試してみてください <br><br> ・スポーツ種目はサッカーのみ対応 <br> ・天然芝または人工芝でフィールドの各ラインがはっきり見えること <br> ・フィールドが見下せる角度で撮影された動画 <br> ※極端なズームや早すぎるパン（横振り）はエラーの原因となります。</p></div>",
+                "NETWORK_ERROR": "ネットワークエラーのため自動分析に失敗しました。接続を確認して、もう一度お試しください",
+                "NO_ANALYSIS_DATA": "動画は解析データがありません.",
+                "CODE_ERRORS": {
+                    "NOT_VIDEO_THREAD": "予期しないエラーが発生しました (31)",
+                    "MULTIPLE_VIEW": "これは、複数の動画には使用できません.",
+                    "NO_VIEWS": "予期しないエラーが発生しました (32)"
+                }
+            },
+            "STORAGE": {
+                "USED": "使用中",
+                "UP_TO": "最大",
+                "LEFT": "使用可能",
+                "SECONDS_CAPTION": "{{hours}}時間 使用中",
+                "SECONDS_CAPTION_MINUTES": "{{hours}}時間{{minutes}}分 使用中",
+                "SECONDS_LEFT": "あと{{hours}}時間 使用可能",
+                "SECONDS_LEFT_MINUTES": "あと{{hours}}時間{{minutes}}分 使用可能",
+                "SECONDS_LIMIT": "最大{{hours}}時間",
+                "SECONDS_LIMIT_MINUTES": "最大{{hours}}時間{{minutes}}分",
+                "MEMORY_USAGE_STATUS": "アップロード可能時間"
+            },
+            "EMPTY": {
+                "VIDEO": {
+                    "TITLE": "動画がありません。",
+                    "BUTTON": "動画アップロード"
+                },
+                "MEMBERS": {
+                    "TITLE": "メンバーがいません。",
+                    "MSG": "メンバーを招待しましょう。",
+                    "BUTTON": "メンバーを招待する"
+                },
+                "ORG_TEAMS": {
+                    "TITLE": "チームがいません。",
+                    "MSG": "チームを招待しましょう。",
+                    "BUTTON": "チームを招待する"
+                },
+                "ROOMS": {
+                    "TITLE": "ルームがありません。",
+                    "MSG": "ルームを作成して動画をアップロードしましょう。",
+                    "BUTTON": "ルームを作成する"
+                },
+                "GROUPS": {
+                    "TITLE": "グループがありません。",
+                    "MSG": "グループを作成してメンバーをまとめましょう。",
+                    "BUTTON": "グループを作成する"
+                },
+                "ANALYSIS": {
+                    "TITLE": "集計するデータがありません。",
+                    "MSG": "動画トピックに付けられたタイムタグが集計されます",
+                    "MSG2": "動画編集でタイムタグを付けてみましょう。"
+                },
+                "NOTIFICATIONS": {
+                    "TITLE": "通知がありません。"
+                },
+                "TIME_TAGS": {
+                    "TITLE": "タイムタグがありません。",
+                    "TITLE_GENERAL": "タグがありません。",
+                    "TITLE_RECENT": "最近使ったタイムタグはありません。",
+                    "MSG": "タイムタグを追加して動画の再生位置を作りましょう。"
+                },
+                "PLAYLIST": {
+                    "NO_VIDEOS": "動画を追加するには、動画の再生画面もしくは動画スレッドからプレーリストに追加ボタンから追加しましょう。"
+                }
+            },
+            "DRAWING_TOOLS": {
+                "POINTER": "選択ツール",
+                "ARROW": "矢印ツール",
+                "CIRCLE": "楕円ツール",
+                "SQUARE": "多角形ツール",
+                "LINE": "直線ツール",
+                "PEN": "フリーハンドツール",
+                "CALLOUT": "字幕ツール",
+                "TAGS": "タイムタグを追加",
+                "ARROW_SELECTION": {
+                    "REGULAR": "実線",
+                    "DASHED": "破線",
+                    "WAVE": "波線"
+                }
+            }
+        },
+        "COMPONENTS": {
+            "TERMS_MODAL": {
+                "HEADER": "利用規約",
+                "ACCEPT_BUTTON": "同意する",
+                "DECLINE_BUTTON": "同意しない"
+            },
+            "PRIVACY_MODAL": {
+                "HEADER": "プライバシーポリシー"
+            },
+            "TEAM_MENU": {
+                "MY_PAGE": "マイページ",
+                "TEAM": "チーム",
+                "ROOM": "ルーム",
+                "ANNALYSIS": "集計",
+                "VIDEO_UPLOAD": "動画をアップロード",
+                "NOTIFICATIONS": "通知",
+
+                "TEAM_TOP": "チームトップ",
+                "MEMBERS_LIST": "メンバー一覧",
+                "INVITE_MEMBERS": "メンバーを招待",
+                "UPLOAD_VIDEO": "動画をアップロード",
+                "ROOM_LIST": "ルーム一覧",
+                "CHANGE_TEAM": "チーム切り替え",
+                "CREATE_TEAM": "チーム新規作成",
+                "CREATE_ROOM": "ルーム新規作成",
+                "CREATE_PLAYLIST": "プレーリスト新規作成",
+
+                "TEAM_NOTIFICATIONS": "チーム通知",
+                "UPLOAD_STATE": "アップロード状況",
+
+                "HELP": "ヘルプ",
+                "CONTACT_US": "お問い合わせ",
+                "TERMS_OF_SERVICE": "利用規約",
+                "PRIVACY_POLICY": "プライバシーポリシー",
+                "ABOUT_US": "会社案内",
+                "KEYBOARD_SHORTCUTS": "キーボードショートカット",
+                "LOGOUT": "ログアウト",
+
+                "LOGIN": "サインイン",
+                "SEARCH_PLACEHOLDER": "動画トピックを検索",
+                "ANALYSIS": "集計"
+            },
+            "ORGANIZATION_MENU": {
+                "VIDEOS": "動画編集",
+                "UPLOAD_VIDEO": "動画のアップロード",
+                "TEAMS": "チーム",
+                "INVITE_TEAMS": "チームを招待",
+                "CHANGE_ORGANIZATION": "Organizationsの切り替え"
+            },
+            "APP_DETAILS_CARRUSELL": {
+                "MAIN": {
+                    "TITLE": "チームを強くする",
+                    "SUBTITLE": "私たちSPLYZAはアマチュアスポーツマンの <br> もっと強くなりたいを叶えます"
+                }
+            },
+            "VIDEO_PLAYER": {
+                "PREV_TAG": "前のタグ",
+                "NEXT_TAG": "次のタグ",
+                "TIME_FRAME_AND_TAG": "タイムフレーム",
+                "DATE_AND_TIME": "開催日時",
+                "HIGH": "高",
+                "LOW": "低",
+                "VIDEO_QUALITY": "画質",
+                "PREVIOUS_FRAME": "前のフレーム",
+                "NEXT_FRAME": "次のフレーム",
+                "SKIP_5_BACKWARD":"５秒戻す",
+                "SKIP_5_FOWARD": "５秒送る",
+                "REPRODUCTION_SPEED": "再生速度",
+                "PAUSE_ON_ANNOTATION": "注記で停止",
+                "NEXT_VIDEO": "次の動画",
+                "PREV_VIDEO": "前の動画",
+                "ADD_TO_PLAYLIST": "プレーリストに追加",
+                "SCALE_MENU": {
+                    "ZOOMIN": "拡大する",
+                    "ZOOMOUT": "縮小する",
+                    "RESTORE": "等倍(100%表示)"
+                }
+            },
+            "VIDEO_UPLOAD_MODAL": {
+                "SELECT_FILE": "ファイルを追加 ",
+                "TITLE": "タイトル",
+                "RECORDED_DATE": "撮影日時",
+                "COMMENT": "コメント",
+                "TAG_VIDEO": "動画タグ",
+                "DELETE": "削除",
+                "UPLOAD_TO": "アップロード先ルーム",
+                "UPLOAD_ALL": "全てをアップロード",
+                "UPLOAD": "アップロード",
+                "CANCEL": "キャンセル",
+                "RETRY": "再試行",
+                "COMBINE_ALL_FILES": "全てのファイルを結合",
+                "UNCOMBINE_ALL_FILES": "ファイルの結合解除",
+                "UNSET": "未設定",
+                "MERGE_COLLECTION_MESSAGE": "先頭から順に１つの動画に結合します。",
+                "ORDER_BY_TITLE": "タイトルで並べ替え",
+                "ORDER_BY_DATE": "撮影日時で並べ替え"
+            },
+            "UPLOAD_NOTIFICATIONS": {
+                "UPLOADING": "アップロード中 : {{room}} … ",
+                "COMMITTING": "アップロード処理の準備中 : {{room}} … ",
+                "PROCESSING": "アップロード処理中 : {{room}} … ",
+                "FAILED": "アップロードに失敗しました。",
+                "TRY_AGAIN": "再アップロードする",
+                "COMPLETE": "ルーム{{room}}にアップロードが完了しました。",
+                "RETRY": "再試行",
+                "NETWORK_ISSUES": "ネットワークの問題が発生しているようです",
+                "WAITING_ON_QUEUE": "アップロード待ち",
+                "CANCEL_CONFIRMATION": "アップロード中の\"{{name}}\"をキャンセルしても良いですか?",
+                "CANCEL_ERRORED": "アップロードに失敗しているため、キャンセルできません。",
+                "CANCEL_COMPLETED": "アップロードが既に完了しているためキャンセルできません。"
+            },
+            "THREAD_SEARCH": {
+                "SEARCH_BY": "Search for <b>{{value}}</b>"
+            },
+            "INVITE_PANEL": {
+                "INVITE_URL": "発行URL",
+                "COPY_URL": "URLをコピー",
+                "SEND_EMAIL": "メールで送る",
+                "OR": "または",
+                "PREVIEW_MSG": "プレビュー　発行URLにアクセスするとこのように表示されます",
+                "EMAIL_DIALOG_PROMPT": "メールアドレス",
+                "ERRORS": {
+                    "GENERAL_ERROR": "エラーが発生しました。原因を調査しますので、招待URLを下記のアドレスへ送ってください。<a href=\"support.teams@splyza.zendesk.com\">support.teams@splyza.zendesk.com</a>",
+                    "MAX_MEMBERS_REACHED": "メンバー数の上限に達しており、このチームに参加することができません。管理者にご連絡ください。",
+                    "MAX_SUPPORTS_REACHED": "サポートメンバー数の上限に達しており、このチームに参加することができません。管理者にご連絡ください。",
+                    "TEAM_NOT_FOUND": "このチームは存在しません。",
+                    "NETWORK_ERROR": "サーバーに接続できません。 インターネット接続を確認後、再試行してください。",
+                    "INVITE_EXPIRED": "招待状の有効期限が切れました。管理者に再発行をご依頼ください",
+                    "INVITE_INVALID": "この招待状は無効です。管理者に再発行をご依頼ください。"
+                },
+                "AFTER_COPY_DIALOG_MESSAGE": "コピーしました",
+                "URL_VALID_ONE_WEEK": "URLの有効期間は1週間です"
+            },
+            "TAG_REMOVE_MODAL": {
+                "TITLE": "タイムタグや注記を引き継ぎますか？",
+                "MESSAGE": "この機能は実行後、\n取り消すことができません。",
+                "OK_BUTTON": "引き継ぐ",
+                "CANCEL_BUTTON": "引き継がない"
+            },
+            "DEFAULT_ROOM_ICON_MODAL": {
+                "SELECT_IMAGE": "画像を選ぶ",
+                "SELECT_FILE": "ファイル選択"
+            },
+            "DISSECTED_VIDEO": {
+                "LEFT_SIDE_TEAM": "左サイドチーム",
+                "RIGHT_SIDE_TEAM": "右サイドチーム",
+                "BALL": "ボール",
+                "DOMINANCE_RATE": "攻撃比率",
+                "NUMBER_RANGE": "回数範囲",
+                "ANALYSIS_SCENE": "解析シーン",
+                "KAI": "回",
+                "START_AUTO_ANALYSIS": "自動分析を開始(ベータ版)",
+                "ANALYSIS_RESULTS": "分析結果(ベータ版)",
+                "ANALYSIS_PROCESSING": "分析中",
+                "ANALYSIS_ERROR": "分析エラー",
+                "ANALYSIS_CONFIRM_MESSAGE": "<div style='margin: 6px; font-size: 14px; color: #414141;'><p>自動分析はフィールドを撮影した動画向けの機能です。<br>  分析のために下記の条件を満たしている必要があります。 <br><br> ・スポーツ種目はサッカーのみ対応 <br> ・天然芝または人工芝でフィールドの各ラインがはっきり見えること <br> ・フィールドが見下せる角度で撮影された動画 <br><br> ※極端なズームや早すぎるパン（横振り）はエラーの原因となります。</p></div>",
+                "INCLUDE_AUTO_ANALYSIS": "自動分析含める",
+                "GAME_AUTO_TAGS": {
+                    "SwitchOffense": "攻守の切り替え",
+                    "ThrowIn": "スローイン",
+                    "CornerKick": "コーナーキック",
+                    "GoalKick": "ゴールキック",
+                    "FreeKick": "フリーキック",
+                    "AttackingThirdLR": "アタッキングサード侵入 L->R",
+                    "AttackingThirdRL": "アタッキングサード侵入 R->L"
+                }
+            },
+            "DETAILED_ALERT": {
+                "TITLE_ERROR_OCURRED": "エラーが発生しました",
+                "REASONS_TITLE": "考えられる理由",
+                "ACTIONS_TITLE": "解決方法",
+                "ERRORS": {
+                    "NETWORK_ERROR": "インターネットに接続できません",
+                    "INTERNAL_SERVER_ERROR": "サーバでエラーが発生しました",
+                    "MEMBER_NOT_EXISTS": "チームに所属していないユーザーが選択されました",
+                    "MEMBER_EXISTS_IN_GROUP": "そのメンバーは既にチームに所属しています",
+                    "GROUP_NOT_EXISTS": "存在しないグループが選択されました",
+                    "GROUP_EXISTS": "このグループ名はすでに存在します",
+                    "CANNOT_ADD_MEMBER_TO_GROUP": "選択したメンバーの一部がこのグループに追加できませんでした",
+                    "RESOURCE_DELETED": "リソースが削除されました",
+                    "ROOM_DELETED": "ルームが削除されました",
+                    "THREAD_DELETED": "動画が削除されました",
+                    "VIDEO_DELETED": "動画が削除されました",
+                    "TEAM_DELETED": "チームが削除されました",
+                    "TAG_NOT_EXISTS": "このタグが存在しません",
+                    "TAG_EXISTS": "このタグは既に存在しています",
+                    "COMMENT_DELETED": "コメントが削除されました",
+                    "USER_NOT_PERMISSIONS_ROOM": "実行する権限がありません",
+                    "USER_NOT_PERMISSIONS": "実行する権限がありません",
+                    "TAGGED_MEMBERS_NOT_VALID": "タグ付けされたユーザーはこのチームのメンバーではありません",
+                    "USER_ADMIN_NOT_DELETE": "チームの管理者を削除するのができません",
+                    "ERROR_OCURRED": "エラーが発生しました"
+                },
+                "CODE_ERRORS": {
+                    "NOT_TEAM_MEMBER": "このユーザーはチームのメンバーではありません",
+                    "ALREADY_IN_GROUP": "このユーザーは既にグループのメンバーです。",
+                    "INVALID_TARGET_ROLE": "エラーが発生しました。[c.41]",
+                    "CANT_CHANGE_ADMIN": "エラーが発生しました。[c.42]",
+                    "MAX_MEMBERS_REACHED ": "人数制限の上限に達しているため権限の変更ができません。",
+                    "MAX_READ_ONLY_REACHED": "人数制限の上限に達しているため権限の変更ができません。",
+                    "ALREADY_EXISTS": "{{item}}は既に存在しています。",
+                    "NOT_VIDEO_THREAD": "エラーが発生しました。[c.43]",
+                    "INVALID_TAGS": "タグ付けされたユーザーはこのチームのメンバーではありません",
+                    "NOOP": "エラーが発生しました。[c.44]",
+                    "MAX_TEAMS_REACHED": "チーム作成の権限がありません"
+                },
+                "ACTIONS": {
+                    "CHECK_INTERNET": "インターネット接続を確認の上もう一度お試しください",
+                    "REFRESH_PAGE": "ページを更新してもう一度お試しください"
+                },
+                "PROBLEM_PERSISTS": "問題が解決しない場合はサポートにご連絡ください"
+            },
+            "NOT_FOUND": {
+                "ROOM": "<span style=\"font-size: 15px; \">このルームは存在しないか、削除されたか、またはアクセス権がありません。</span>",
+                "USER_PROFILE": "<span style=\"font-size: 15px; \">このユーザーはこのチームのメンバーではないか、存在しません</span>",
+                "GENERAL": "<span style=\"font-size: 15px; \">このリソースは存在しないか削除されました</span>",
+                "VIDEO": "<span style=\"font-size: 15px; \">この動画は存在しないか、削除されたか、またはアクセス権がありません。</span>",
+                "PLAYLIST": "<span style=\"font-size: 15px; \">このプレーリストはすでに存在していません。</span>",
+                "TEAM": "<span style=\"font-size: 15px; \">このチームは存在しない</span>",
+                "ANALYSIS_SELECTED_VIDEO": "<span style=\"font-size: 15px; \">このチームで選択した動画を見つけることができません</span>",
+                "REDIRECTS": {
+                    "VIDEO": "チーム動画へ",
+                    "ROOM": "ルーム動画へ",
+                    "ROOMS": "ルーム一覧へ",
+                    "TEAMS": "チームトップへ"
+                }
+            },
+            "NOT_FOUND_ORGANIZATION": {
+                "ORGANIZATIONS_EMPTY": "<span style=\"font-size: 15px; \">organizationがありません</span>",
+                "ORGANIZATION": "<span style=\"font-size: 15px; \">このOrganizationは存在しない</span>",
+                "REDIRECTS": {
+                    "VIDEO": "チーム動画へ",
+                    "ROOM": "ルーム動画へ",
+                    "ROOMS": "ルーム一覧へ",
+                    "ORGANIZATION": "Organizationトップへ"
+                }
+            },
+            "USAGE_REQUEST": {
+                "ACCOUNT_RENEWAL": "プランの更新",
+                "REQUEST_NEW_TEAM": "チーム情報記入",
+                "APPLICATION_REQUEST": "SPLYZA Teamsチーム利用申請",
+                "SIGNUP_PANEL_TITLE": "チームを作成するにはSPLYZA Teamsのアカウントが必要です",
+                "SIGNUP_PANEL_TITLE2": "チームを作成するには<br>SPLYZA Teamsのアカウントが必要です",
+                "CRUMB": {
+                    "STEP1": "1.管理者アカウント作成/サインイン",
+                    "STEP2": "2.チーム情報記入",
+                    "STEP3": "3.アンケート記入",
+                    "STEP4": "4.チーム作成"
+                },
+                "SPORTS": {
+                    "A1": "アイスホッケー",
+                    "A2": "サッカー",
+                    "A3": "バスケットボール",
+                    "A4": "バレーボール",
+                    "A5": "ハンドボール",
+                    "A6": "ビーチバレーボール",
+                    "A7": "フィールドホッケー",
+                    "A8": "フットサル",
+                    "A9": "野球",
+                    "A10": "ラグビー",
+                    "A11": "ラクロス",
+                    "A12": "陸上競技",
+                    "A13": "テニス",
+                    "OTHER_SPORTS": "その他（ご記入ください）"
+                },
+                "TEAM_GENDER": {
+                    "MAN": "男子",
+                    "WOMEN": "女子",
+                    "MIXED": "男女",
+                    "UNKNOWN": "不明"
+                },
+                "TEAM_INFO": {
+                    "RENEW_PAGE_CONTENT": "本申請フォームはSPLYZA Teamsで新しくチーム作成される方の申請フォームです。試用期間終了後の継続利用のお申し込みは別ページのフォームからお申し込みください。",
+                    "RENEW_PAGE_CONTENT_BUTTON": "正式利用（継続利用）のお申し込みはこちらから",
+                    "RENEW_APPLICATION_BEING_PROCESSED": "更新処理中",
+                    "TITLE": "チームに関する情報をご記入ください。",
+                    "COMPANY_NAME": "請求書宛先（チーム名と異なる場合）",
+                    "ADMINISTRATOR": "ご担当者名",
+                    "EMAIL": "メールアドレス",
+                    "EMAIL_PLACEHOLDER": "サインインアカウントのメールアドレスを記入しておく",
+                    "PHONE_NUMBER": "電話番号",
+                    "POSTAL_CODE": "郵便番号",
+                    "SEARCH_ADDRESS": "住所検索",
+                    "ADDRESS": "ご住所",
+                    "ADDRESS_PLACEHOLDER": "建物名",
+                    "TEAM_NAME": "チーム名",
+                    "NUMBER_OF_MEMBERS": "ご利用人数",
+                    "PEAPLE_COUNTER": "人",
+                    "PLAN": "利用プラン",
+                    "FREE_PLAN": "1ヶ月無料お試し",
+                    "START_PLAN": "ライト",
+                    "STANDARD_PLAN": "ベーシック",
+                    "PREMIUM_PLAN": "アドバンス",
+                    "FREE_PLAN_PART2": "解像度720p＋15時間の動画アップロード＋アカウント数無制限",
+                    "START_PLAN_PART2": "解像度720p＋アップロード時間20分/1人",
+                    "STANDARD_PLAN_PART2": "解像度1080p＋アップロード時間40分/1人",
+                    "PREMIUM_PLAN_PART2": "解像度1080p＋アップロード時間60分/1人",
+                    "FREE_PLAN_WARNING": "※全てのプランに1ヶ月間の無料期間が付与されます。",
+                    "NEXT": "次へ",
+                    "COUNTRY": "国名",
+                    "MONEY_TO_PAY": "お支払い金額",
+                    "RAW_PLAN": "プラン",
+                    "TEAM_NAME_PLACEHOLDER": "スプライザ高校サッカー部",
+                    "FULL_NAME": "フルネーム",
+                    "CONTACT_ROLE": "役職",
+                    "CONTACT_ROLEB": "監督やコーチなど",
+                    "SEMINAR_DATE_TITLE": "講習会希望日時",
+                    "LEVEL": "カテゴリ（年代）",
+                    "STATE": "都道府県",
+                    "STATE_OVERSEAS": "海外",
+                    "STATE_OTHER": "その他",
+                    "TYPE_OF_SEMINAR": "講習会の方法（無料）",
+                    "TYPE_OF_SEMINAR_OPTIONS": {
+                        "WEB": "Web講習会\n (Web会議ツールを利用した講習会)",
+                        "VISITING": "訪問講習会\n (現地に訪問して講習会)",
+                        "NO_TRAINING": "講習会不要"
+                    },
+                    "SPECIAL_PLAN_MESSAGE": {
+                        "TITLE": "紹介キャンペーン実施中！",
+                        "LINE1": "無料期間中にチームをご紹介いただくと、ご紹介者の無料期間が2週間分追加で延長されます。",
+                        "LINE2": "※無料期間は追加延長分を含めて最大2ヶ月までとなります。",
+                        "LINE3": "※ご紹介いただいたチームが無料プランにお申込みされたのを確認できてからの適用となります。"
+                    },
+                    "LEVEL_OPTIONS": {
+                        "HIGH_SCHOOl": "高校",
+                        "COLLAGE": "大学",
+                        "JUNIOR": "中学校",
+                        "ELEMENTARY": "小学校",
+                        "PRO": "プロ",
+                        "AMATEUR": "社会人",
+                        "OTHER": "その他"
+                    },
+                    "INVOICE_DETAIL": "※請求書は全てご登録頂いたメールアドレスに送付致します。",
+                    "ADD_MORE_TEAMS_ALERT_MSG": "１人１チームしか作成することは出来ません。もし追加でチームを作成したい場合は、teams.support@splyza.comまでお問い合わせください。"
+                },
+                "SURVEY": {
+                    "TITLE": "より良いサービスを提供するため、SPLYZA Teamsの利用調査を実施しています。アンケートの回答にご協力ください。",
+                    "SPORT_TYPE": "スポーツ種目",
+                    "TEAM_GENDER_TITLE": "性別",
+                    "SELECT_PLEASE": "選択してください",
+                    "OTHER_ADD_HERE": "その他の場合、記入してください",
+                    "MAIN_USES": "SPLYZA Teamsを利用する主な用途（複数可）",
+                    "GAME_ANALYSIS": "試合の分析・振り返り",
+                    "SHARE_FAST": "撮影した動画の素早い共有",
+                    "TAGGING_VIDEO": "シーンへのタグ付けを使った詳細な分析",
+                    "DRAWING_TOOLS": "図形や字幕などの描画ツールを使った指導",
+                    "PARENTS_SHARE": "親御さんやOBとの情報共有",
+                    "MAKE_DVD": "DVD作成、管理などの手間の削減",
+                    "PLAYER_PRACTICE": "選手の意識改善・学習補助",
+                    "SHARE_COACH_INFO": "コーチ間の情報共有・指導補助",
+                    "OTHERS": "その他",
+                    "SPLYZA_USAGE_OBJECTIVE": "SPLYZA Teamsを利用する上で期待している事や要望があれば教えてください",
+                    "WHY_DECIDE_USE_SPLYZA": "SPLYZA Teamsを試用または正式利用する事を決めた理由は何ですか",
+                    "HOW_FOUND_SPLYZA": "SPLYZA Teamsを何で知りましたか",
+                    "FOUND_ADVERT": "広告を見て(FAX、Web、SNS)",
+                    "FOUND_CALL": "営業電話",
+                    "FOUND_DIRECT": "SPLYZAスタッフに説明を受けて",
+                    "FOUND_INTERNET": "インターネット検索",
+                    "FOUND_NEWS": "ニュース(Web、新聞)",
+                    "FOUND_PARTNER": "パートナー",
+                    "FOUND_REFERRAL": "知人からの紹介",
+                    "FOUND_SOCIAL": "SNS(Twitter、Facebook)",
+                    "FOUND_LAB": "Sports Analytics Lab",
+                    "FOUND_TRADE": "イベント、フェスティバル",
+                    "FOUND_WEB": "HPの問い合わせ",
+                    "FOUND_SHIRIAI": "知人からの紹介",
+                    "FOUND_ANALYTICS_LAB": "Sports Analytics Lab",
+                    "FOUND_OTHERS": "その他",
+                    "FOUND_REASON": "知ったきっかけを具体的に教えてください。",
+                    "SHOP_NAME": "代理店を経由してのお申し込みの場合、代理店名を記入してください。",
+                    "START_CREATE_TEAM": "チーム作成を開始する",
+                    "AGENCY_NAME": "代理店名",
+                    "BACK_TO_TEAM_INFO": "チーム情報記入へ戻る",
+                    "TEAM_CHALLENGES": "現在の課題"
+                },
+                "PAY_FORM": {
+                    "ADDITIONAL_ACCOUNT": "追加アカウント",
+                    "ADDITIONAL_ACCOUNT_INFO1": "※追加 一人あたり：{{price}}円/月",
+                    "ADDITIONAL_ACCOUNT_INFO2": "※プラン一律 1人あたり：{{price}}円/月",
+                    "TOTAL_UPLOAD_TIME": "アップロード時間合計： <span class='total-upload-time'>{{hours}}</span>時間",
+                    "TOTAL_UPLOAD_TIME_FULL": "アップロード時間合計： <span class='total-upload-time'>{{hours}}</span>時間  <span class='total-upload-time'>{{minutes}}</span>分",
+                    "SUPPORT_ACCOUNT": "サポーターアカウント",
+                    "PAY_METHOD": "年払い/月払い",
+                    "PAY_METHOD2": "支払い方法",
+                    "INVOICE_METHOD": "請求書の発行方法",
+                    "PERSON_COUNTER": "人",
+                    "FREE_WORKSHOP": "無料の個別説明を希望する",
+                    "BLUE_MSG": {
+                        "MONEY_TO_PAY": "お支払い金額",
+                        "DETAILS1_MONTH_TITLE": {
+                            "E": "( {{plan}}プラン月額 ＋ 追加アカウント ＋ サポーター ） × 1ヶ月（月払い）+ 郵送",
+                            "PLAN": "{{plan}}プラン月額",
+                            "ADITIONAL_ACCOUNTS": "追加アカウント",
+                            "SUPPORT_ACCOUNTS": "サポーター"
+                        },
+                        "DETAILS1_MONTH": {
+                            "E": "({{subtotal}}円 ＋ {{supportPrice}}円×{{support}}人) × 1ヶ月（月払い）+ {{mail}}円",
+                            "PLAN": "{{subtotal}}円x{{members}}人",
+                            "ADITIONAL_ACCOUNTS": "",
+                            "SUPPORT_ACCOUNTS": "{{supportPrice}}円×{{support}}人",
+                            "MAIL": "{{mail}}円"
+                        },
+                        "DETAILS2": "※年払いの場合、2カ月分割引が適用され、動画ストレージの容量12ヶ月分が契約開始時に利用可能となります。",
+                        "MONTH": "円/月",
+                        "YEAR": "円/年",
+                        "START_PLAN": "ライト",
+                        "STANDARD_PLAN": "ベーシック",
+                        "PREMIUM_PLAN": "アドバンス",
+                        "RESULT_PAYMENT_MONTHLY1": "1ヶ月",
+                        "RESULT_PAYMENT_MONTHLY2": "(月払い)",
+                        "RESULT_PAYMENT_YEARLY1": "1年",
+                        "RESULT_PAYMENT_YEARLY2": "(年払い)",
+                        "INVOICE_SEND_METHOD": "郵送",
+                        "SUBTOTAL": "小計",
+                        "TAXES": "消費税",
+                        "TOTAL": "合計",
+                        "YEN_SYMBOL": "円",
+                        "INITIAL_PAY_TITLE": "初期費用"
+                    },
+                    "REUSE_NAME": "製品ページの利用チーム欄にチーム名の掲載を許可する",
+                    "SELECT_AN_OPTION": "選択してください",
+                    "PAY_METHOD1_OPTIONS": {
+                        "MONTHLY": "月払い",
+                        "ANNUAL": "年払い"
+                    },
+                    "PAY_METHOD2_OPTIONS": {
+                        "DEPOSIT": "銀行振り込み",
+                        "CARD": "クレジットカード(請求書にてご案内致します)",
+                        "CARD2": "クレジットカード"
+                    },
+                    "INVOICE_OPTIONS": {
+                        "EMAIL": "メール送付",
+                        "NORMAL_MAIL": "郵送(請求毎に100円加算いたします)",
+                        "NORMAL_MAIL2": "郵送"
+                    },
+                    "SELECT_SOMETHING": "選択してください"
+                },
+                "MESSAGES": {
+                    "REQUEST_CREATED_TITLE": "申し込みを受理しました。",
+                    "REQUEST_CREATED": "入力いただいたメールアドレスに自動応答のメールを送信いたしました。<br>メールが届かない場合はteams.support@splyza.comまでお問い合わせください。",
+                    "RECENT_CREATED_TEAM_TITLE": "チームが作成されました",
+                    "RECENT_CREATED_TEAM_BODY": "<span>チーム利用申請・アンケートへのご協力、ありがとうございます。</span><span>あなたのチーム「{{teamName}}」がSPLYZA Teamsに作成されました。</span><span>メンバーをこのチームに招待して、試合や練習の動画を共有しましょう。</span>",
+                    "INVITE_MEMBER": "メンバーを招待",
+                    "TEAM_UPLOAD": "チーム動画をアップロード"
+
+                },
+                "CREATE_TEAM": {
+                    "PLAN_TO_USE": "利用プラン",
+                    "CREATE_TEAM": "チームを作成する",
+                    "ACCOUNT": "アカウント",
+                    "PEOPLE_COUNTER": "人",
+                    "SUPPORT_MEMBERS": "+ {{members}}人のサポーター",
+                    "SUBTITLE": "全ての項目は登録後に変更可能です"
+                },
+                "FORM_ERRORS": {
+                    "CompanyName": {
+                        "LengthValidator": "「請求書宛先」は50字以下で指定してください。"
+                    },
+                    "ContactEmail": {
+                        "EmailValidator": "「メールアドレス」が正しい形式ではありません。"
+                    },
+                    "MemberCount": {
+                        "GreaterThanOrEqualValidator": "「ご利用人数」は１0人以上を指定してください。"
+                    },
+                    "Plan": {
+                        "LengthValidator": "「利用プラン」が正しく指定されていません。"
+                    },
+                    "AdditionalAccounts": {
+                        "GreaterThanOrEqualValidator": "「追加アカウント」は０人以上を指定してください。"
+                    },
+                    "PhoneNumber": {
+                        "LengthValidator": "「電話番号」は4〜32文字で指定してください。"
+                    },
+                    "Country": {
+                        "ExactLengthValidator": "「国名」が正しく指定されていません。"
+                    },
+                    "PostCode": {
+                        "NotNullValidator": "「郵便番号」を入力してください。"
+                    },
+                    "AddressLine1": {
+                        "LengthValidator": "「ご住所」は1〜150文字で指定してください。"
+                    },
+                    "INVALID_PHONE_NUMBER": "半角で入力してください"
+                },
+                "ERRORS": {
+                    "403": "正式申し込みができるのはチーム管理者のみです。",
+                    "409": "更新処理中"
+                }
+            },
+            "CONFIRM_ACCOUNT": {
+                "ERRORS": {
+                    "BAD_CODE": "認証番号が正しくありません",
+                    "NO_LONGER_VALID_CODE": "この認証番号は利用できなくなりました。アカウント登録をはじめからやり直してください",
+                    "ERROR_CONNECTION": "サーバーに接続できません。 インターネット接続を確認後、再試行してください。",
+                    "EMPTY": "認証番号を入力してください"
+                }
+            },
+            "SHORTCUTS": {
+                "KEYBOARD_SHORTCUTS": "キーボードショートカット",
+                "VIDEO_PLAYER": "ビデオプレーヤー",
+                "SPACE": "スペースキー",
+                "NEXT_FRAME": "次のフレーム",
+                "PREV_FRAME": "前のフレーム",
+                "SKIP5_FOWARD": "５秒送る",
+                "SKIP5_BACKWARD": "５秒戻す",
+                "PLAY": "再生",
+                "PREV_TAG": "前のタグ",
+                "NEXT_TAG": "次のタグ",
+                "SCALE_VIDEO_IN": "拡大する",
+                "SCALE_VIDEO_OUT": "縮小する",
+                "SCALE_VIDEO_RESET": "等倍(100%表示)",
+                "MOUSE_WHEEL": "マウスホイール"
+            },
+            "THREAD_SHARE_DIALOG": {
+                "INTRO": "タグや注記の引き継ぎを選択し、動画を共有したいチームのコーチにURLを送ってください。共有後のタグや図形の更新は、共有先のチームに反映されません。",
+                "OPTIONS_TITLE": "タグや注記の引き継ぎ",
+                "AFTER_COPY_DIALOG_MESSAGE": "コピーしました",
+                "EMAIL_DIALOG_PROMPT": "メールアドレス",
+                "EMAIL_SUBJECT": "[SPLYZA Teams] 動画が届いています",
+                "EMAIL_BODY": "ここをクリックして動画を受け取りましょう。: {{link}}",
+                "SHARE_LINK": "リンクの共有",
+                "MORE_INTRO": "共有後の動画のタグや図形の更新も共有先に反映されます。",
+                "REFRESH": "URLを更新",
+                "OR": "または",
+                "COPY_URL": "URLをコピー",
+                "SEND_EMAIL": "メールで送る",
+                "URL_USAGE": "URLは1回限り有効です",
+                "COPY_TAGS": "引き継ぐ",
+                "NOT_COPY_TAGS": "引き継がない"
+            },
+            "LEAVE_TEAM": {
+                "BUTTON_LABEL": "チームから離脱",
+                "CONFIRM_MESSAGE": "{{teamName}}を離れます。よろしいですか？この操作は取り消すことが出来ません。もしチームに再度参加したい場合は、チームの管理者に招待してもらうようご連絡ください",
+                "REQUEST_ERROR": "チームを離れる中にエラーが発生しました. しばらくお待ちの上、再度お試しください。",
+                "REQUEST_ERROR_ADMIN": "チームの管理者はチームを離れることは出来ません。チームを離れたい場合は、お問い合わせから管理者の変更をご依頼ください。"
+            },
+            "ADD_TO_PLAYLIST": {
+                "TITLE": "プレーリストを選択"
+            }
+        },
+        "SECTIONS": {
+            "SOCIAL_BUTTONS": {
+                "LOGIN_WITH_GOOGLE": "<span class=\"text-bold\">Google</span> <span>でサインイン</span>",
+                "LOGIN_WITH_LINE": "<span class=\"text-bold\">LINE</span> <span>でサインイン</span>",
+                "LOGIN_WITH_FACEBOOK": "<span class=\"text-bold\">Facebook</span> <span>でサインイン</span>",
+                "LOGIN_WITH_TWITTER": "<span class=\"text-bold\">Twitter</span> <span>でサインイン</span>",
+                "LOGIN_WITH_APPLE": "<span class=\"text-bold\">Apple</span> <span>でサインイン</span>",
+                "SIGNUP_WITH_GOOGLE": "<span class=\"text-bold\">Google</span> <span>で登録</span>",
+                "SIGNUP_WITH_LINE": "<span class=\"text-bold\">LINE</span> <span>で登録</span>",
+                "SIGNUP_WITH_FACEBOOK": "<span class=\"text-bold\">Facebook</span> <span>で登録</span>",
+                "SIGNUP_WITH_TWITTER": "<span class=\"text-bold\">Twitter</span> <span>で登録</span>",
+                "SIGNUP_WITH_APPLE": "<span class=\"text-bold\">Apple</span> <span>で登録</span>"
+            },
+            "SIGNUP_PANEL": {
+                "TITLE": "アカウントを登録する",
+                "OR": "または",
+                "CREATE_ACCOUNT_WITH_BUTTON": "{{name}}アカウントで登録",
+                "LOGGIN_ACCOUNT_WITH_BUTTON": "{{name}}でサインイン",
+                "CREATE_ACCOUNT": "アカウントを登録する",
+                "CREATE_SPOCH_ACCOUNT": "メールアドレスで登録",
+                "BACK_TO_SOCIAL": "他サービスのアカウントで登録",
+                "PRYVACY_TESTAMENT": "アカウントを登録すると、SPLYZAの <span class=\"underlined-text-button privacy-button\">プライバシーポリシー</span> と <span class=\"underlined-text-button terms-button\">利用規約 </span> に同意したものとみなされます。",
+                "LOGIN_TESTAMENT": "既にアカウントをお持ちの方は<span class=\"underlined-text-button go-to-login-button\">サインインへ</span>",
+                "FORGOT_MY_PASSWORD": "パスワードを忘れた方は <span class=\"underlined-text-button\" ng-click=\"$ctrl.onForgotPassword()\">こちら</span>",
+                "EMAIL_ALREADY_EXISTS": "このメールアドレスは既に存在しています。サインイン後、マイページ画面からSNSアカウントとリンクすることができます。",
+                "TEAM_CREATION_TOKEN_INVALID": "チーム作成トークンが無効、もしくは有効期限が切れています。新しいトークンで再度お試しください。",
+                "REGISTER_BUTTON": "登録",
+                "SIGNUP": "サインアップ",
+                "OR_USE_EMAIL": "メールアドレスで登録",
+                "OR2": "もしくは",
+                "ERRORS": {
+                    "USERNAME_EMPTY": "ユーザー名を入力してください",
+                    "USERNAME_FORMAT": "ユーザー名は1文字以上50文字以下",
+                    "EMAIL_EMPTY": "メールアドレスを入力してください",
+                    "EMAIL_FORMAT": "有効なメールアドレスを入力してください",
+                    "PASSWORD_CANNOT_BE_EMPTY": "パスワードを入力してください",
+                    "PASSWORD_FORMAT": "パスワードは8文字以上20文字以下で、数字と英字の両方を含める必要があります"
+                }
+            },
+            "THREAD_SHARE_HANDLER": {
+                "NEED_LOGIN": "サインインする必要があります。",
+                "LOGIN": "サインイン",
+                "ERROR_NOT_VALID_INVITATION": "このURLは既に無効です",
+                "CONTACT_ADMIN": "リンクを再発行してもらってください",
+                "CONTINUE": "ホームへ戻る",
+                "SHARE_CAPTION": "{{name}} さんから動画が届きました",
+                "CHOOSE_TEAM": "動画を受け取るチームを選択してください。",
+                "ACCEPT_SHARE": "動画を受け取る",
+                "DECLINE_SHARE": "受け取らない",
+                "EXPIRED_TEAM_ERROR": "チームの有効期限が切れているため、動画を受け取ることが出来ませんでした。",
+                "NOT_COACH": "管理者かコーチの権限がないため、動画を受け取ることが出来ませんでした。",
+                "NOT_COACH_ANYMORE": "管理者かコーチの権限がないため、動画を受け取ることが出来ませんでした。",
+                "DESCRIPTION": "{{name}} さんから動画が届きました。受け取るチームとルームを選択してください。",
+                "DESCRIPTION_ROOM": "{{name}} さんから動画が届きました。受け取るルームを選択してください。",
+                "TEAM": "チーム",
+                "ROOM": "ルーム",
+                "NOT_VALLID_INVITATION_ERROR": {
+                    "INVALID_INVITATION": "共有元にURLの再発行を依頼してください。",
+                    "EXPIRED_INVITATION": "このURLは既に無効です。共有元にURLの再発行を依頼してください。",
+                    "USED_INVITATION": "このURLは既に無効です。共有元にURLの再発行を依頼してください。"
+                }
+            },
+            "TEAM_INVITE_HANDLER": {
+                "WAIT_MESSAGE": "承認されるまでしばらくお待ちください",
+                "WELCOME_SPOCH": "SPLYZA Teamsへようこそ",
+                "INVITATION": "招待状",
+                "YOU_HAVE_BEEN_INVITED": "{{name}} さんから    チームに招待されました",
+                "ENTER_TO_TEAM": "このチームに参加",
+                "NO_ENTER_TO_TEAM": "　参加しない",
+                "NEED_LOGIN": "サインインする必要があります",
+                "NEED_LOGIN_PART2": "初めての方はアカウントを作成してください",
+                "LOGIN": "サインイン",
+                "HOME": "ホームページ",
+                "CREATE_ACCOUNT": "SPLYZA Teamsアカウントを作成",
+                "ERROR_ACCEPT_INVITE": "エラーが発生しました。原因を調査しますので、招待URLを下記のアドレスへ送ってください。support.teams@splyza.zendesk.com",
+                "ERROR_NOT_VALID_INVITATION": "この招待状は無効です",
+                "NOT_VALLID_INVITATION_ERROR": {
+                    "INVALID_INVITATION": "チームの管理者に招待状の再発行を依頼してください。",
+                    "EXPIRED_INVITATION": "招待状の有効期限が切れました。管理者に再発行をご依頼ください。",
+                    "USED_INVITATION": "このURLは既に無効です。管理者に再発行をご依頼ください。"
+                },
+                "ERROR": "エラー",
+                "PROCESS_COMPLETE": "「{{teamName}}」へ参加しました",
+                "OPEN_ON_GOOGLE_PLAY": "「Google Play」で開きますか？"
+            },
+            "ORGANIZATION_INVITE_HANDLER": {
+                "WAIT_MESSAGE": "しばらくお待ちください",
+                "WELCOME_SPOCH": "SPLYZA Teamsへようこそ",
+                "INVITATION": "招待状",
+                "YOU_HAVE_BEEN_INVITED": "あなたのチームは、このOrganizationsに招待されています",
+                "ACCEPT_INVITE": "参加する",
+                "DECLINE_INVITE": "参加しない",
+                "NEED_LOGIN": "サインインする必要があります",
+                "NEED_LOGIN_PART2": "初めての方はアカウントを作成してください",
+                "LOGIN": "戻る",
+                "CREATE_ACCOUNT": "SPLYZA Teamsアカウントを作成",
+                "ERROR_ACCEPT_INVITE": "エラーが発生しました。原因を調査しますので、招待URLを下記のアドレスへ送ってください。support.teams@splyza.zendesk.com",
+                "ERROR_NOT_VALID_INVITATION": "この招待状は無効です",
+                "NOT_VALLID_INVITATION_ERROR": {
+                    "INVALID_INVITATION": "チームの管理者に招待状の再発行を依頼してください。",
+                    "EXPIRED_INVITATION": "招待状の有効期限が切れました。管理者に再発行をご依頼ください。"
+                },
+                "ERROR": "エラー",
+                "PROCESS_COMPLETE": "操作が完了しました",
+                "SELECT_TEAM": "チームを選択してください",
+                "URL_VALID_ONE_WEEK": "URLの有効期間は1週間です"
+            },
+            "ORGANIZATION_VIDEO": {
+                "VIDEO_DELETE_FAIL_MSG": "削除できませんでした",
+                "CONFIRM_DELETE": "削除しますか"
+            },
+            "TEAM_LANDING": {
+                "LATEST_VIDEOS": "新着動画"
+            },
+            "TEAM_COMMON": {
+                "TEAM_NAME": "チーム名",
+                "TEAM_GOAL": "目標",
+                "TEAM_GOAL_DATE": "目標の期日",
+                "SAVE_TEAM_ERROR": "エラーが発生しました： {{moreInfo}}",
+                "CREATE_TEAM": "チーム新規作成",
+                "ERROR_UPDATE_USER_ROLE": "エラーが発生しました。再実行してください",
+                "ERROR_DELETING_USER": "エラーが発生しました。再実行してください",
+                "USER_ALREADY_MEMBER_ALERT": "{{userName}}は既に{{group}}のメンバーです",
+                "CANNOT_ADD_MEMBER_TO_GROUP": "エラーが発生しました。再実行してください",
+                "CONFIRM_REMOVE_USER": "実行してよろしいですか",
+                "CREATE_GROUP_DIALOG": {
+                    "TITLE": "タググループ作成",
+                    "MSG": "タググループ名"
+                },
+                "DELETE_DIALOG": {
+                    "TITLE": "削除{{group}}",
+                    "MSG": "削除します。よろしいですか"
+                },
+                "ERROR_OCCURRED": "エラーが発生しました。再実行してください",
+                "GROUP_ALREADY_EXISTS": "このグループ名はすでに存在します",
+                "TEAM_NOT_EXISTS_ERROR": "このチームが存在しません。チームid:  ",
+                "TAG_ALREADY_EXISTS": "このタグ名はすでに存在します",
+                "MANAGE_GROUP": "グループ管理",
+                "INVALID_CHARACTERS_ALERT_MSG": "テキストに無効な文字が含まれているために続行できません",
+                "ERRORS": {
+                    "TEAM_NAME_EMPTY": "チーム名を入力してください",
+                    "ROOM_NAME_EMPTY": "ルーム名を入力してください",
+                    "GOAL_DATE_NULL": "目標の期日には目標が必要です",
+                    "GOAL_EMPTY": "目標を入力してください",
+                    "DATE_MIN": " 目標の期日は、今日以降の日付を指定してください"
+                },
+                "EDIT_TEAM_INFO": "選手登録番号を編集",
+                "FREE_ACCOUNT_ALERT": {
+                    "FREE_TRIAL": "無料お試し期間中です",
+                    "DAYS_LEFT": "残り{{value}}日",
+                    "MINUTES_LEFT": "残り{{value}}分",
+                    "HOURS_LEFT": "残り{{value}}時間"
+                },
+                "ACCOUNT_EXPIRED_ALERT": "利用期限が切れました。支払いが完了するまで管理・編集が制限されます。",
+                "TEAM_RENEWAL_ONLY_ADMIN_ALERT": "正式申し込みができるのはチーム管理者のみです。",
+                "PLAYLIST": "プレーリスト"
+            },
+            "TEAM_CREATE_INVITE": {
+                "INVITE_MEMBER": "メンバーを招待",
+                "INVITE_ROLE": "招待する相手に渡す権限",
+                "ROLE_CHANGE_DESCRIPTION": "権限は招待後、メンバー一覧で変更が可能です。",
+                "EMAIL_SUBJECT": "SPLYZA Teamsチーム『{{name}}』に招待されました",
+                "EMAIL_BODY": "クリックして招待状を開く: {{link}}",
+                "MEMBER_COUNT": "参加中のメンバー {{members}}人",
+                "MEMBER_LIMIT": "上限 {{max}}人",
+                "EMPTY_MSG1": "このチームのメンバーの人数が上限の{{limit}}人に達しました。",
+                "EMPTY_MSG2": "招待できるメンバーの人数を増やすには、下記よりお問い合わせください。",
+                "EMPTY_CONTACTUS": "メールで問い合わせ",
+                "SUPPORTER_COUNT": "参加中のサポーター {{members}}人",
+                "INCREASE_LIMIT_MESSAGE": "招待できる人数の上限を変更するには、<br><span class=\"key-message-a\">メールでお問い合わせ</span>ください。"
+            },
+            "TEAM_MEMBERS": {
+                "TEAM_GROUPS": "グループ",
+                "ADD_GROUPS": "グループを追加",
+                "GROUPS_AUTOCOMPLETE_PLACEHOLDER": "グループ名を入力してください",
+                "CANNOT_ADD_MEMBER_TO_GROUP":  "エラーが発生しました。再実行してください",
+                "REMOVE_FROM_ALL_GROUPS_OPTION": "すべてから削除",
+                "CHANGE_OPTIONS_BUTTON": "変更する",
+                "SELECT_ALL_MEMBERS": "全員選択",
+                "EDIT_SELECTED_MEMBERS": "選択したメンバーを編集",
+                "MEMBERS_LIST": "メンバー一覧"
+            },
+            "VIDEO_COMMON": {
+                "PREPARING_VIDEO": "準備中..",
+                "VIDEO_MENU": {
+                    "EDIT": "動画・タイムタグを編集",
+                    "UPLOAD_TO_ROOM": "動画を他のルームに複製する",
+                    "SHARE_THREAD": "他のチームへ動画を共有",
+                    "SAVE_AS_COPY": "別名保存",
+                    "DOWNLOAD": "動画をダウンロード",
+                    "EXPORT_CSV_TAGS": "csv",
+                    "EXPORT_CSV_EXCEL": "Excel",
+                    "EXPORT_TAGS": "タイムタグをエクスポート",
+                    "EDIT_PLAYLIST": "プレーリストを編集"
+                },
+                "EDITING_VIDEO_TITLE": "{{title}}の動画を編集中",
+                "CALLOUT_PROMPT_TITLE": "字幕のコメントをここに入力します。",
+                "CALLOUT_PROMPT_BUTTON": "確定",
+                "VIDEO_SELECTOR": {
+                    "ADD_TIME_TAG": "タイムタグを追加",
+                    "ADD_VIDEO_TAG": "動画タグを追加",
+                    "MEMBERS": "メンバー",
+                    "OTHERS": "それ以外",
+                    "TEAMS": "チーム",
+                    "ADD_GROUP": "新しいグループを追加",
+                    "RECENT_TAGS_TITLE": "最近使ったタイムタグ",
+                    "TIME_TAGS_ADMIN": "タグ管理"
+                },
+                "VIDEO_TAGS": "動画タグ",
+                "TIME_TAGS": "タイムタグ",
+                "MESSAGES": {
+                    "VIDEO_TITLE_PROMPT": "動画タイトル",
+                    "COMMON_OPERATION_NOTSUCCESS": "操作は正常に完了することができませんでした",
+                    "GO_BACK_CONFIRMATION": "編集内容が失われます。終了しますか",
+                    "WANT_TO_CONTINUE": "続行しますか",
+                    "CONFLICT_ALERT_MSG": "この動画は、他の端末で更新されました。変更を保存するためにマージが必要です。実行しますか？",
+                    "CONFLICT": "確認",
+                    "MERGE": "マージ",
+                    "SAVE_AS": "別名保存",
+                    "TEAM_REMOVED_MESSAGE": "このチームはOrganizationsから削除されました",
+                    "MAIN_TEAM_REMOVED_MESSAGE": "このチームは他のOrganizationsに所属しています",
+                    "NAVIGATE_AWAY_MSG": "この動画はまだ保存されていません",
+                    "NAVIGATE_AWAY_TITLE": "編集を終了しますか？",
+                    "EDIT_DRAFT_MSG": "保存されていない編集データがあります。復元しますか？",
+                    "EDIT_DRAFT2_MSG": "保存されていない編集データがあります。復元しますか？<br><span style=\"font-size: 16px; \">現在のデータが上書きされます</span>",
+                    "EDIT_DRAFT_OK": "復元",
+                    "EDIT_DRAFT_CANCEL": "破棄"
+                }
+            },
+            "THREAD": {
+                "THREAD_UPDATE_MSG": "処理が終了しました",
+                "THREAD_UPDATE_FAILURE": "処理中にエラーが発生しました",
+                "NEEDS_COMMENT_ERROR_MSG": "コメントを入力してください",
+                "POSTING_COMMENT_ERROR_MSG": "投稿できませんでした",
+                "DELETE_COMMENT_CONFIRM_MSG": "実行しますか",
+                "READ": "既読",
+                "UNREAD": "未読",
+                "CONFIRM_THREAD_DELETE": "削除しますか",
+                "THREAD_DELETE_FAIL_MSG": "削除できませんでした",
+                "COMMENT_WITH_VIDEO": "動画付でコメント",
+                "COMMENT_NO_VIDEO": "動画なしでコメント",
+                "VIDEO_TAGS": "動画タグ",
+                "DELETE_TOPICS": "動画を削除する",
+                "POST_COMMENT": "コメントを投稿",
+                "WRITE_A_COMMENT": "コメントを入力",
+                "CONFIRM_PLAYLIST_DELETE": "削除しますか",
+                "DELETE_PLAYLIST": "プレーリストを削除する"
+            },
+            "TEAM_ROOMS": {
+                "THREADS_BY_DATE": "動画トピックス - 開催日時順",
+                "SEARCH_PLACEHOLDER": "名前で検索",
+                "SEE_ALL_VIDEOS": "全ての動画を表示",
+                "SORT_BY_CREATED": "作成日",
+                "SORT_BY_NAME": "ルーム名",
+                "SORT_BY": "並べ替え"
+             },
+             "MY_PAGE": {
+                 "TAGGED_HEADING": "{{userName}}がタグ付けされた動画",
+                 "HEADING_LOGGED_USER": "マイページ",
+                 "HEADING_OTHER_USER": "メンバー",
+                 "NO_TAGGED": "現在タグづけられた動画はありません。タグ付けされた動画がこちらに表示されます。",
+                 "LINKED_ACCOUNTS": "ソーシャルサインインの管理",
+                 "DELETE_ACCOUNT": "アカウントの削除",
+                 "DELETE_ACCOUNT_CONFIRM": "アカウントを削除しますか？ 実行すると復元することはできません。",
+                 "DELETE_ACCOUNT_COMPLETE": "アカウントは削除されました。",
+                 "PROFILE_UPDATE_ERROR": "マイページの更新に失敗しました。",
+                 "ADMINS_NO_DELETE_ERROR": "チーム管理者のユーザーは削除できません."
+             },
+             "SOCIAL_LINKING": {
+                 "LINK": "リンクする",
+                 "UNLINK": "リンク解除",
+                 "LINK_ERROR": "プロフィールの更新に失敗しました。.",
+                 "UNLINK_CONFIRM": "{{provider}}サインインの連携を解除します。よろしいですか？"
+             },
+            "TEAM_ROOM": {
+                "THREADS_BY_DATE": "動画トピックス - 開催日時順",
+                "SEARCH_BY_NAME": "名前で検索",
+                "GROUP_NAME_MEMBERS": "{{name}} ({{members}}人)",
+                "GROUP_MEMBERS_COUNT": "({{members}} members)",
+                "GROUPS": "グループ",
+                "MEMBERS": "メンバー",
+                "ROOM_MEMBERS": "ルームメンバー",
+                "NAME_PLACEHOLDER": "ルーム名を入力",
+                "DESCRIPTION_PLACEHOLDER": "コメントを入力",
+                "COMMENT_PLACEHOLDER": "コメントを入力",
+                "DELETE_ROOM": "ルームを削除",
+                "CONFIRM_DELETE_ROOM": "ルームを削除しますか？"
+            },
+            "TEAM_VIDEO_UPLOAD": {
+                "TITLE": "動画をアップロード",
+                "YOU_HAVE_PENDING_UPLOADS_WARNING": "アップロードされている動画はキャンセルされます。よろしいですか？",
+                "NOT_ENOUGH_STORAGE_WARNING": "ストレージの容量が足りません。追加をご希望される場合は、お問い合わせください",
+                "NOT_ENOUGH_STORAGE_MULTIPLE_FILES_WARNING": "ストレージの容量が足りません。追加をご希望される場合は、お問い合わせください",
+                "ERROR_GETTING_VIDEO_INFO_WARNING": "動画情報を取得する際にエラーが発生しました",
+                "HEADER": "動画アップロード",
+                "CAPTION": "チームに共有したい動画を選択しよう",
+                "IN_PROGRESS": "処理中の全てのアップロード:",
+                "ADDED_FILES_SUBHEAD": "追加されたファイル",
+                "UPLOADING_SUBHEAD": "アップロード中",
+                "UPLOAD_COMPLETE_SUBHEAD": "アップロード完了",
+                "UPLOAD_FAILED_SUBHEAD": "アップロード失敗",
+                "UPLOAD_PAUSED_SUBHEAD": "アップロード停止",
+                "UPLOAD_ALL_BUTTON": "全てをアップロード",
+                "CANCEL_BUTTON": "キャンセル",
+                "UPLOAD_BUTTON": "アップロード開始",
+                "TITLE_PROMPT": "タイトル",
+                "STATUS_UPLOADING": "アップロード中...",
+                "STATUS_PROCESSING": "ビデオ処理中...",
+                "STATUS_FAILED": "失敗",
+                "RETRY": "Retry",
+                "VIDEOS_SUPPORTED_MESSAGE": "あらゆる動画ファイルに対応しています。エラーが発生した場合はお問い合わせください",
+                "NO_AVAILABLE_STORAGE": "ストレージの容量が足りません。追加をご希望される場合は、お問い合わせください",
+                "NO_AVAILABLE_STORAGE_READ_ONLY": "チームの設定が、読み取り専用となっています。アップロードをご希望される場合はお問い合わせください",
+                "NO_AVAILABLE_STORAGE_READ_ONLY_ADMIN": "利用期限が切れました。\n支払いが完了するまで管理・編集が制限されます。",
+                "NO_AVAILABLE_STORAGE_READ_ONLY_ADMIN_BUTTON": "正式利用（継続利用）のお申し込みはこちらから",
+                "ABOUT_SPLYZA": "運営会社",
+                "CONTACT": "お問い合わせ",
+                "CREATE_ROOM": "ルーム新規作成",
+                "NEXT_RENEWAL": "次回更新日： {{date}}"
+            },
+            "ANALYSIS": {
+                "HEADER": "集計",
+                "SIDEBAR_HEADER": "タイムタグを集計する動画",
+                "ADD_TAG": "タイムタグを追加",
+                "VIDEO_NO_TAGS_MESSAGE": "選択された動画はタイムタグがありません。",
+                "ADD_VIDEO": "動画を追加",
+                "CLEAR_ALL": "すべてクリア",
+                "VIDEOS_FOR_ANALYSIS": "集計する動画トピックス",
+                "CLEAR_SELECTION": "選択を解除",
+                "ALL_ROOMS": "全てのルーム",
+                "SHOW_CHART": "集計する",
+                "SELECTED_VIDEOS": "選択した動画トピックス",
+                "GROUP_CHART_TITLE": "[{{name}}]の集計結果",
+                "DEFAULT_CHART_TITLE": "グループ未設定の集計結果",
+                "USER_CHART_TITLE": "メンバーの集計結果",
+                "TEAM_CHART_TITLE": "チームの集計結果",
+                "PREFIX_COSAS_COUNTER": "個",
+                "RE_SELECT_VIDEOS": "動画を再選択",
+                "ADD_VIDEOS": "動画を追加する",
+                "GO_TO_ANALYSIS_VIEW": "集計へ",
+                "SHOW_PLAYBACK_LIST": "再生一覧を開く",
+                "SELECTED_TAGS": "選択されたタグ"
+            },
+            "ORGANIZATION_TEAMS": {
+                "CONFIRM_REMOVE_TEAM": "チームを削除してよろしいですか",
+                "EDIT_INFO": "チーム登録番号を編集",
+                "REMOVE_TEAM": "削除",
+                "INFO_PROMPT": "チーム情報を編集",
+                "INFO_IDENTIFIER": "チーム登録番号",
+                "INFO_SAVE_BUTTON": "保存"
+            },
+            "ORGANIZATION_CREATE_INVITE": {
+                "EMAIL_SUBJECT": "\"{{name}}\" に招待されました",
+                "EMAIL_BODY": "Organizationsに参加するにはこちらをクリックしてください: {{link}}"
+            },
+            "TEAM_EMPTY": {
+                "NOT_PERMISSIONS_CREATE_TEAM": "チームの作成権限がありません",
+                "NOT_TEAM_MESSAGE": "あなたがチームのオーナーであれば",
+                "NO_MEMBERS_MESSAGE": "利用の申し込みをしてチームを作成しましょう。",
+                "NOT_TEAM_MESSAGE_2": "まだチームが作成されていません。",
+                "NO_MEMBERS_MESSAGE_2": "チームを作成してメンバーを招待しましょう。",
+                "CREATE_REQUEST_TEAM": "チーム利用申請",
+                "CREATE_TEAM": "チームを作成"
+            },
+            "FORGOT_PW": {
+                "TITLE": "パスワードをお忘れですか？",
+                "SUBTITLE1": "入力されたメールアドレス(登録されたメールアドレス)に",
+                "SUBTITLE2": "パスワードリセットのURLをお送りします。",
+                "SEND_BUTTON": "パスワードをリセット",
+                "BACK_TO_LOGIN_BUTTON": "サインイン画面へ戻る",
+                "EMAIL": "メールアドレス",
+                "EMAIL_NOT_ENTERED": "メールアドレスを入力してください",
+                "SEND_RESET_BUTTON": "送信する",
+                "REQUEST_FAILED": "問題が発生しました。情報が間違っている可能性があります。",
+                "EMAIL_SENT": "パスワードをリセットするためのメールが送信されました"
+            },
+            "FORGOT_PW_HANDLER": {
+                "HEADER": "パスワードを変更",
+                "PASSWORD_NOT_ENTERED": "パスワードを入力してください",
+                "PASSWORD": "パスワード",
+                "PASSWORD_CONFIRM_NOT_MATCH": "パスワードが違います。",
+                "PASSWORD_CONFIRM": "パスワードの確認",
+                "CHANGE_PASSWORD_BUTTON": "パスワードを変更する",
+                "CHANGE_FAILED": "問題が発生しました。情報が間違っている可能性があります。"
+            },
+            "ORGANIZATION_CSV_IMPORT": {
+                "HEADER": "CSV読み込み",
+                "UPLOADING": "アップロード中です...",
+                "PROCESSING": "処理中です...",
+                "CANCEL_BUTTON": "キャンセル",
+                "OFFSET_SECONDS": "オフセット (秒)",
+                "START_UPLOAD_BUTTON": "アップロード",
+                "ERROR": "エラーが発生しました。CSVファイルを確認して、再度実行してください。",
+                "WARNING": "読み込むことができましたが、警告があります。CSVファイルを確認して、再度実行してください。",
+                "FILE_UPLOAD_FAILED": "アップロードが失敗しました",
+                "UNABLE_TO_IMPORT_CONFIG": "CSVインポートの設定を読み込めません",
+                "FILTERS_HEADER": "フィルター",
+                "CLEAR_ANNOTATIONS_CHECKBOX": "作成済みの注記、タグをクリア"
+            },
+            "ORGANIZATION_VIDEO_DISTRIBUTION": {
+                "HEADER": "動画の配信",
+                "DISTRIBUTE_TO": "配信先のチームを選択してください:",
+                "DISTRIBUTE_TO_ROOM_PROMPT": "動画を投稿: ",
+                "ENTER_ROOM_NAME_PROMPT": "ルーム名を入力してください",
+                "HISTORY": "履歴",
+                "ROOM": "ルーム",
+                "PROCESSING": "処理中です",
+                "DISTRIBUTED_DATE": "配信日",
+                "DISTRIBUTED_BY": "配信者",
+                "STATUS": "結果",
+                "DISTRIBUTE_BUTTON": "配信",
+                "DISTRIBUTION_SCHEDULED": "動画が配信されました",
+                "DISTRIBUTE_CONFIRM": "{{count}}チームに配信されます。よろしいですか",
+                "ERROR": "エラー",
+                "ERROR_DISTRIBUTE_VIDEO": "エラーが発生しました。"
+            },
+            "ORGANIZATION_VIDEOS": {
+                "SEARCH": "検索",
+                "KEYWORDS": "キーワードを追加"
+            },
+            "TEAM_MEMBER_INFO_EDIT": {
+                "HEADER": "ユーザー情報を編集",
+                "MEMBER_NUMBER": "選手登録番号",
+                "SAVE_BUTTON": "保存"
+            },
+            "CONFIRM_ACCOUNT": {
+                "ACCOUNT_AUTHENTICATION": "アカウント認証",
+                "CODE_EXPLANATION": "メールに記載された4桁の認証番号を入力してください",
+                "LOGIN": "サインイン",
+                "MAIL": "送信先メールアドレス： {{mail}}",
+                "IF_ERROR_MSG": "※メールアドレスが間違っている場合は、もう一度アカウント登録を行ってください",
+                "NOT_EMAIL_ERROR_MSG": "※このページは有効ではありません、もう一度アカウント登録を行ってください",
+                "TO_SIGNUP": "アカウント登録へ"
+            },
+            "USAGE_REQUEST": {
+                "FORM_ERRORS": {
+                    "FILL_RED_FIELDS": "赤でマークされたすべてのフィールドを埋めてください",
+                    "PEOPLE_COUNT_ONLY_NUMBER": "「ご利用人数」は数字を入力してください",
+                    "NEED_PLAN": "プランを選択してください",
+                    "PHONE_BAD_FORMAT": "電話番号を入力してください",
+                    "REASON_EMPTY": "少なくとも1つの「SPLYZA Teamsチーム利用する主な用途」を選択してください",
+                    "OPINION_EMPTY": "少なくとも1つの「SPLYZA Teamsを何で知りましたか」を選択してください ",
+                    "ADDITIONAL_ACCOUNTS_NUMBER": "「追加アカウント」は数字を入力してください",
+                    "SUPPORT_ACCOUNTS_NUMBER": "「サポーターアカウント」は数字を入力してください",
+                    "FIELD_NOT_ENTERED": "入力されていません",
+                    "BAD_EMAIL": "メールアドレスの形式ではありません",
+                    "SELECT_ATLEAST_ONE": "1つ以上選択してください",
+                    "MEMBER_MIN": "「ご利用人数」は１0人以上を指定してください。",
+                    "INVALID_PHONE_NUMBER": "半角で入力してください"
+                }
+            },
+            "PLAYLIST_CREATE": {
+                "HEADER": {
+                    "TITLE": "プレーリスト新規作成"
+                },
+                "FORM": {
+                    "TITLE": "タイトル",
+                    "DESCRIPTION": "説明",
+                    "ROOM_LABEL": "ルーム",
+                    "ERRORS": {
+                        "ENTER_PLEASE": "を入力してください",
+                        "TITLE_EMPTY": "プレーリストタイトルを入力してください"
+                    }
+                }
+            },
+            "ADD_TO_PLAYLIST": {
+                "SAVED_SUCCESS": "プレーリストに追加しました",
+                "SAVED_ERROR": "プレーリストに追加できませんでした"
+            },
+            "PLAYLIST_DETAIL": {
+                "ITEMS_COUNTER": "{{count}}本の動画",
+                "SELECTED_TAGS": "{{count}}個のタグが選択されました",
+                "CLEAR": "クリア"
+            },
+            "PLAYLIST_EDIT": {
+                "TITLE": "プレーリスト編集({{count}})"
+            }
+        }
+    },
+    "COUNTRIES": {
+        "JP": "日本"
+    }
+}

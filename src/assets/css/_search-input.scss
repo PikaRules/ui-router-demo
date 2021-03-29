@@ -1,0 +1,45 @@
+
+
+@mixin searchBox($color, $backgroundColor, $placeHolderColor, $activePlaceHolderColor, $border: 0) {
+
+    .icon {
+        position: absolute;
+        left: 8px;
+        top: 6px;
+        display: block;
+        content: ' ';
+        width: 16px;
+        height: 16px;
+        background-size: 20px 20px;
+        z-index: 100;
+    }
+
+    input {
+        @include textBox($color, $backgroundColor, $placeHolderColor, $activePlaceHolderColor, $border);
+        padding-left: 35px;
+        padding-right: 20px;
+        border: 1px solid rgba(204,204,204, 0.7);
+    }
+
+}
+
+.menu-search-box {
+    @include searchBox(white, #2D294D, #8D8D8D, rgb(234, 234, 234));
+}
+
+.simple-search-box {
+    @include searchBox(#414141, transparent, #8D8D8D, rgb(100,100,100), 1px solid #CCCCCC);
+}
+
+.thin-tag-selector  .simple-search-box {
+    @include searchBox(#414141, transparent, black, rgb(100,100,100), 1px solid #CCCCCC);
+
+    input:focus {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    input {
+        background-color: rgba(255, 255, 255, 0.25);
+        color: black;
+    }
+}

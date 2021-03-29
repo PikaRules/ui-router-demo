@@ -1,0 +1,60 @@
+
+
+
+/// =============== arrow-selection-menu ===================
+
+.mat-menu-panel.arrow-selection-menu {
+    min-width: 20px;
+    padding: 0px;
+    border: 1px solid rgba(80, 80, 80, 1);
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+    border-radius: 0;
+    opacity: 0;
+    right: 51px;
+    top: -50px;
+    position: relative;
+
+    &.ng-star-inserted {
+        opacity: 1;
+        transition: opacity 1s linear 3s;
+    }
+
+    .mat-menu-content {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mat-menu-item {
+        padding: 0;
+    }
+
+    button {
+        min-width: 20px;
+        margin: 0 0;
+        height: 48px;
+        opacity: 0.5;
+        border-radius: 0;
+
+        span {
+            line-height: 23px;
+            padding-left: 5px;
+            color: white;
+            font-size: 15px;
+            text-transform: none;
+            font-weight: 400;
+        }
+
+        &.selected {
+            opacity: 1;
+        }
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    }
+
+
+}
+
+

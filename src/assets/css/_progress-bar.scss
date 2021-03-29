@@ -1,0 +1,47 @@
+
+md-progress-linear .md-bar.md-bar2 {
+    background-color: #0F0C31;
+}
+
+md-progress-linear .md-container.md-mode-determinate {
+    background-color: #D9D9D9;
+}
+
+md-progress-linear.light .md-bar.md-bar2 {
+    background-color: rgba(15,12,49, 0.4);
+}
+
+
+// circular progress bar
+
+
+
+md-progress-linear.auto-analyzer {
+    height: 2px
+}
+
+md-progress-linear.auto-analyzer .md-container { height: 2px; }
+md-progress-linear.auto-analyzer .md-container {
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+
+// --- new
+
+mat-progress-spinner.mat-progress-spinner.white.mat-progress-spinner-indeterminate-animation[mode=indeterminate] circle {
+    stroke: white;
+}
+mat-progress-spinner.mat-progress-spinner.mat-progress-spinner-indeterminate-animation[mode=indeterminate] circle,
+mat-progress-spinner.mat-progress-spinner.blue.mat-progress-spinner-indeterminate-animation[mode=indeterminate] circle {
+    stroke: #5B5691;
+}
+
+// --- upload box
+
+.mat-progress-bar.upload-box-progress .mat-progress-bar-fill::after {
+    background-color: #0F0C31;
+}
+
+.mat-progress-bar.upload-box-progress .mat-progress-bar-buffer {
+    background-color: #D9D9D9;
+}
